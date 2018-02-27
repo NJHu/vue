@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script type="text/javascript" src="../../myassets/js/vue.js"></script>
+    <title>Helloworld</title>
+</head>
+<body>
+    <h1>v-if 判断是否加载</h1>
+<hr>
+<div id="app">
+    <div v-if="isLogin">你好：nj</div>
+    <div v-show="isLogin">我是 v-show </div>
+    <div v-else>请登录后操作</div>
+    <button @click="clickLogin" style="color: black; font-size: 44px">登录/退出</button>
+</div>
+
+<script type="text/javascript">
+    var app=new Vue({
+        el:'#app',
+        data: {
+            isLogin:false
+        },
+        methods: {
+            clickLogin: function () {
+                this.isLogin = !this.isLogin;
+            }
+        }
+    })
+</script>
+</body>
+</html>

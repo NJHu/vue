@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script type="text/javascript" src="../../myassets/js/vue.js"></script>
+    <title>Helloworld</title>
+    <style type="text/css">
+        .classA {
+            color: red;
+            font-size: 20px;
+        }
+
+        .classB {
+            color: black;
+            font-size: 30px;
+        }
+    </style>
+</head>
+<body>
+<h1>Hello World</h1>
+<hr>
+<div id="app" style="padding-bottom: 100px">
+    {{message}}
+    <img v-bind:src="imgSrc" width="200px" height="200px">
+    <p>
+        <a v-bind:href="linkBindA">跳转百度</a>
+    </p>
+    <div v-bind:class="className" v-on:click="changeClass">1、绑定classA 点我点我!!</div>
+
+    <div v-bind:class="{classA: isOk}">2、绑定class中的判断</div>
+
+    <div v-bind:class="[classA, classB]">3、绑定class中的数组</div>
+
+    <div v-bind:class="isOk ? classA : classB">4、绑定class中的三元表达式判断</div>
+
+    <div :style="{color:red,fontSize:font}">5、绑定style</div>
+
+    <div :style="styleObject">6、用对象绑定style样式</div>
+</div>
+
+<script type="text/javascript">
+    var app = new Vue({
+        el: "#app",
+        data: {
+            message: 'hello world',
+            imgSrc: 'https://raw.githubusercontent.com/njhu/njimages/master/iosprojectimages/images/gn1iphonex.png',
+            linkBindA: 'https://www.baidu.com',
+            className: 'classA',
+            isOk: false,
+            classA: 'classA',
+            classB: 'classB',
+            font: '40px',
+            red: 'red',
+            styleObject: {
+                fontSize: '24px',
+                color: 'green'
+            }
+        },
+        methods: {
+            changeClass: function () {
+                this.className = (this.className === 'classA') ? 'classB' : 'classA';
+                this.isOk = !this.isOk;
+            }
+        }
+    })
+</script>
+
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script type="text/javascript" src="../../myassets/js/vue.js"></script>
+    <title>Helloworld</title>
+    <style type="text/css">
+        [v-cloak] {
+            display: none;
+        }
+
+        input {
+            border: solid 1px black;
+        }
+    </style>
+</head>
+<body>
+<h1>Hello World</h1>
+<hr>
+<div id="app">
+    {{message}}
+    <hr>
+    v-pre指令:
+    <div v-pre>{{message}}</div>
+    v-cloak指令在vue渲染完指定的整个DOM后才进行显示。它必须和CSS样式一起使用:
+    <div v-cloak>
+        {{ message }}
+    </div>
+
+    <div v-once>第一次绑定的值：{{message}}</div>
+    <div><input type="text" v-model="message"></div>
+</div>
+
+<script type="text/javascript">
+    setTimeout(function () {
+        var app = new Vue({
+            el: "#app",
+            data: {
+                message: 'hello world'
+            }
+        })
+    }, 2000)
+</script>
+
+</body>
+</html>

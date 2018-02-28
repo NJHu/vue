@@ -9,27 +9,23 @@
     <title>Helloworld</title>
 </head>
 <body>
-<h1>v-if 判断是否加载</h1>
+<h1>Hello World</h1>
 <hr>
 <div id="app">
-    <div v-if="isLogin">你好：nj</div>
-    <div v-show="isLogin">我是 v-show </div>
-    <div v-else>请登录后操作</div>
-    <button @click="clickLogin" style="color: black; font-size: 44px">登录/退出</button>
+    <span>{{ messsage }}</span>=<span v-text="messsage"></span><br/>
+    <p v-text="msgHtml"></p>
+    <span v-html="msgHtml"></span>
 </div>
 
 <script type="text/javascript">
     var app = new Vue({
-        el: '#app',
+        el: "#app",
         data: {
-            isLogin: false
-        },
-        methods: {
-            clickLogin: function () {
-                this.isLogin = !this.isLogin;
-            }
+            messsage: 'hello world',
+            msgHtml:'<h2>hello Vue!</h2>'
         }
     })
 </script>
+
 </body>
 </html>

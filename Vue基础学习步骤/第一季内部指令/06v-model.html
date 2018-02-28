@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script type="text/javascript" src="../../myassets/js/vue.js"></script>
+    <title>Helloworld</title>
+    <style type="text/css">
+        input {
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+<h1>Hello World</h1>
+<hr>
+<div id="app" style="padding-bottom: 100px">
+    <p>原始文本信息message：{{message}}</p>
+    <h3>文本框</h3>
+    <p>v-model:<input type="text" v-model="message"></p>
+    <p>原始文本信息textareaMessage：{{textareaMessage}}</p>
+    <textarea cols="30" rows="10" v-model="textareaMessage"></textarea>
+    <p>原始文本信息lazyMessage：{{lazyMessage}}</p>
+    <p>v-model:<input type="text" v-model.lazy="lazyMessage"></p>
+    <p>原始文本信息numberMessage：{{numberMessage}}</p>
+    <p>v-model:<input type="number" v-model.number="numberMessage"></p>
+    <p>.trim：输入去掉首尾空格原始文本信息trimMessage：|{{trimMessage}}|</p>
+    <p>v-model:<input type="text" v-model.trim="trimMessage"></p>
+    <h3>多选按钮绑定一个值</h3>
+    <input type="checkbox" id="isTrue" v-model="isTrue">
+    <label for='isTrue'>{{isTrue}}</label>
+    <h3>多选绑定一个数组</h3>
+    <p>
+        <input type="checkbox" id="JSPang" value="JSPang" v-model="web_Names">
+        <label for="JSPang">JSPang</label><br/>
+        <input type="checkbox" id="Panda" value="Panda" v-model="web_Names">
+        <label for="Panda">Panda</label><br/>
+        <input type="checkbox" id="PanPan" value="PanPan" v-model="web_Names">
+        <label for="PanPan">PanPan</label>
+    <p>{{web_Names}}</p>
+    </p>
+    <h3>单选按钮绑定</h3>
+    <p>
+        <input type="radio" id="one" value="男" v-model="sex">
+        <label for="one">男</label>
+        <input type="radio" id="two" value="女" v-model="sex">
+        <label for="two">女</label>
+    <p>{{sex}}</p>
+    </p>
+
+</div>
+
+<script type="text/javascript">
+    var app = new Vue({
+        el: "#app",
+        data: {
+            message: 'hello world',
+            textareaMessage: '',
+            lazyMessage: '',
+            numberMessage: 0,
+            trimMessage: '',
+            isTrue: false,
+            web_Names: [],
+            sex: ''
+        }
+    })
+</script>
+
+</body>
+</html>

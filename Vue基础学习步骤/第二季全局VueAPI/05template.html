@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script type="text/javascript" src="../../myassets/js/vue.js"></script>
+    <title>Helloworld</title>
+</head>
+<body>
+<h1>Hello World</h1>
+<hr>
+<div id="app">
+    {{message}}
+</div>
+
+<div id="app2">
+    {{message}}
+    <!--<div style="position: fixed; left: 0; z-index: 100"><img src="./images/qun.jpg" width="18%"/></div>-->
+    <!--<div style="position: fixed; right: 0; z-index: 100"><img src="./images/nj.jpg" width="18%"/></div>-->
+
+</div>
+
+<div id="app3">
+    {{message}}
+</div>
+
+<template id="demo2">
+    <h2 style="color:red"> 我是template标签模板 </h2>
+</template>
+
+
+<script type="x-template" id="demo3">
+    <h2 style="color:red">我是script标签模板</h2>
+</script>
+
+<script type="text/javascript">
+    var app = new Vue({
+        el: "#app",
+        data: {
+            message: 'hello world'
+        },
+        template: `
+                <h1 style="color: red">我是选项模板</h1>
+                `
+    })
+
+    var app2 = new Vue({
+        el: "#app2",
+        data: {
+            message: 'hello world2'
+        },
+        template: '#demo2'
+    })
+
+    var app3 = new Vue({
+        el: "#app3",
+        data: {
+            message: 'hello world3'
+        },
+        template: '#demo3'
+    })
+</script>
+
+</body>
+</html>

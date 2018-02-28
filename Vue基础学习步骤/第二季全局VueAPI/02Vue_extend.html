@@ -13,16 +13,29 @@
 <hr>
 <div id="app">
     {{message}}
+    <author></author>
 
+    <div id="needAuthorExtend"></div>
 </div>
 
 <script type="text/javascript">
+    var authorExtend = Vue.extend({
+        template: "<p><a :href='authorUrl'>{{authorName}}</a></p>",
+        data: function () {
+            return {
+                authorName: 'njhu',
+                authorUrl: 'https://www.github.com/njhu/vue'
+            }
+        }
+    });
     var app = new Vue({
         el: "#app",
         data: {
             message: 'hello world'
         }
     })
+    new authorExtend().$mount('author');
+    new authorExtend().$mount('#needAuthorExtend');
 </script>
 
 </body>

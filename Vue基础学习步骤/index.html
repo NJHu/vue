@@ -9,18 +9,37 @@
     <title>Vue.js 实例</title>
 </head>
 <body>
-        <h1>Vue2.0实例</h1>
-        <br>
-        <h3>【第一季】Vue2.0-内部指令(共8集)</h3>
-        <ol>
-            <li><a href="第一季内部指令/01helloworld.html">01Hello word 实例</a></li>
-            <li><a href="./第一季内部指令/02v-if_show.html">v-if&v-else&v-show</a></li>
-            <li><a href="./第一季内部指令/03v-for.html">v-for</a></li>
-            <li><a href="./第一季内部指令/04v-text_html.html">v-text&v-html</a></li>
-            <li><a href="./第一季内部指令/05v-on.html">v-on</a></li>
-            <li><a href="./第一季内部指令/06v-model.html">v-model</a></li>
-            <li><a href="./第一季内部指令/07v-bind.html">v-bind</a></li>
-            <li><a href="./第一季内部指令/08v-others.html">v-others</a></li>
-        </ol>
+<div id="app">
+    <h1>{{message}}</h1>
+    <br>
+    <h3>【第一季】Vue2.0-内部指令(共8集)</h3>
+    <ol>
+        <li><a href="第一季内部指令/01helloworld.html">01Hello word 实例</a></li>
+        <li><a href="./第一季内部指令/02v-if_show.html">v-if&v-else&v-show</a></li>
+        <li><a href="./第一季内部指令/03v-for.html">v-for</a></li>
+        <li><a href="./第一季内部指令/04v-text_html.html">v-text&v-html</a></li>
+        <li><a href="./第一季内部指令/05v-on.html">v-on</a></li>
+        <li><a href="./第一季内部指令/06v-model.html">v-model</a></li>
+        <li><a href="./第一季内部指令/07v-bind.html">v-bind</a></li>
+        <li><a href="./第一季内部指令/08v-others.html">v-others</a></li>
+    </ol>
+    <h3>【第二季】Vue2.0-全局 API(共8集)</h3>
+    <ol>
+        <li><a href="第二季全局VueAPI/01Vue_directive.html">Vue.directive 自定义指令</a></li>
+        <li><a href="第二季全局VueAPI/02Vue_extend.html">Vue.extend构造器的延伸</a></li>
+        <li><a href="第二季全局VueAPI/03Vue_set.html">Vue.set全局操作</a></li>
+        <li><a href="第二季全局VueAPI/04Vue_life.html">Vue的生命周期（钩子函数）</a></li>
+        <li><a href="第二季全局VueAPI/05template.html">Template 制作模版</a></li>
+    </ol>
+</div>
+
+<script type="text/javascript">
+    var app = new Vue({
+        el: "#app",
+        data: {
+            message: 'Vue2.0实例'
+        }
+    })
+</script>
 </body>
 </html>

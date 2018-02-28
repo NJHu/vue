@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script type="text/javascript" src="../../myassets/js/vue.js"></script>
+    <title>Helloworld</title>
+</head>
+<body>
+<h1>Hello World</h1>
+<hr>
+<h1>构造器的声明周期</h1>
+<hr>
+<div id="app">
+    {{message}}
+    <p>
+        <button @click="jia">加分</button>
+    </p>
+</div>
+<button onclick="app.$destroy()">销毁</button>
+<br>
+<br>
+<div>
+    <label>
+        Vue所有的生命周期钩子自动绑定在this上下文到实例中，因此你可以访问数据，对属性和方法进行运算。这意味着你不能使用箭头函数来定义一个生命周期方法。这是因为箭头函数绑定了父上下文，因此this与你期待的Vue实例不同。<br>
+        1、beforeCreate<br>
+        　　在实例初始化之后，数据观测和event/watcher时间配置之前被调用。<br>
+        2、created<br>
+        　　实例已经创建完成之后被调用。在这一步，实例已经完成以下的配置：数据观测，属性和方法的运算，watch/event事件回调。然而，挂载阶段还没开始，$el属性目前不可见。<br>
+        3、beforeMount<br>
+        　　在挂载开始之前被调用：相关的render函数首次被调用。<br>
+        　　该钩子在服务器端渲染期间不被调用。<br>
+        4、mounted<br>
+        　　el被新创建的vm.$el替换，并挂在到实例上去之后调用该钩子函数。如果root实例挂载了一个文档内元素，当mounted被调用时vm.$el也在文档内。<br>
+        　　该钩子在服务端渲染期间不被调用。<br>
+        5、beforeUpdate<br>
+        　　数据更新时调用，发生在虚拟DOM重新渲染和打补丁之前。<br>
+        　　你可以在这个钩子中进一步第更改状态，这不会触发附加的重渲染过程。<br>
+        　　该钩子在服务端渲染期间不被调用。<br>
+        6、updated<br>
+        　　由于数据更改导致的虚拟DOM重新渲染和打补丁，在这之后会调用该钩子。<br>
+        　　当这个钩子被调用时，组件DOM已经更新，所以你现在可以执行依赖于DOM的操作。然而在大多数情况下，你应该避免在此期间更改状态，因为这可能会导致更新无限循环。<br>
+        　　该钩子在服务端渲染期间不被调用。<br>
+        7、activated<br>
+        　　keep-alive组件激活时调用。<br>
+        　　该钩子在服务器端渲染期间不被调用。<br>
+        8、deactivated<br>
+        　　keep-alive组件停用时调用。<br>
+        　　该钩子在服务端渲染期间不被调用。<br>
+        9、beforeDestroy 【类似于React生命周期的componentWillUnmount】<br>
+        　　实例销毁之间调用。在这一步，实例仍然完全可用。<br>
+        　　该钩子在服务端渲染期间不被调用。<br>
+        10、destroyed<br>
+        　　Vue实例销毁后调用。调用后，Vue实例指示的所有东西都会解绑定，所有的事件监听器会被移除，所有的子实例也会被销毁。<br>
+        　　该钩子在服务端渲染不会被调用<br>
+    </label>
+</div>
+
+<script type="text/javascript">
+    var app = new Vue({
+        el: "#app",
+        data: {
+            message: 1
+        },
+        methods: {
+            jia: function () {
+                this.message++;
+            }
+        },
+        beforeCreate: function () {
+            console.log('1-beforeCreate 初始化之后');
+        },
+        created: function () {
+            console.log('2-created 创建完成');
+        },
+        beforeMount: function () {
+            console.log('3-beforeMount 挂载之前');
+        },
+        mounted: function () {
+            console.log('4-mounted 被挂载');
+        },
+        beforeUpdate: function () {
+            console.log('5-beforeUpdate 数据更新前');
+        },
+        updated: function () {
+            console.log('6-updated 被更新后');
+        },
+        activated: function () {
+            console.log('7-activated');
+        },
+        deactivated: function () {
+            console.log('8-deactivated');
+        },
+        beforeDestroy: function () {
+            console.log('9-beforeDestroy 销毁之前');
+        },
+        destroyed: function () {
+            console.log('10-destroyed 销毁之后')
+        }
+    })
+</script>
+
+</body>
+</html>

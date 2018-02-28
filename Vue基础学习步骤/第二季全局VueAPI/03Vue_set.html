@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script type="text/javascript" src="../../myassets/js/vue.js"></script>
+    <title>Helloworld</title>
+    <style type="text/css">
+        button {
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+<h1>Hello World</h1>
+<hr>
+<div id="app">
+    <h1>{{count}}</h1>
+    <button onclick="add()">add(): Vue.set(outData, 'count', 4);</button>
+    <button onclick="add2()">add2(): app.count++;</button>
+    <button onclick="add3()">add3(): outData.count++;</button>
+    <button onclick="add4()">add4(): app.$data.count ++;</button>
+</div>
+
+<div id="app2">
+    <h1>Vue.set 全局操作</h1>
+    <hr>
+    <ul>
+        <li v-for="text in arr">{{text}}</li>
+    </ul>
+    <button onclick="changeArr()">changeArr()</button>
+</div>
+
+<script type="text/javascript">
+    // MARK =================================
+    var outArray = {
+        arr: ['aaa', 'bbb', 'ccc']
+    }
+
+    var app2 = new Vue({
+        el: "#app2",
+        data: outArray
+    })
+
+    function changeArr() {
+        console.log('================');
+//        app2.arr[1] = 'ddd';
+        Vue.set(app2.arr, 1, 'ddd');
+    }
+
+    // MARK ===============================
+    //在构造器外部声明数据
+    var outData = {
+        count: 1,
+        goodName: 'car'
+    }
+
+    var app = new Vue({
+        el: "#app",
+        data: outData
+    })
+
+    function add() {
+        Vue.set(outData, 'count', 4);
+    }
+
+    function add2() {
+        app.count++;
+    }
+
+    function add3() {
+        outData.count++;
+    }
+
+    function add4() {
+        app.$data.count++;
+    }
+</script>
+
+</body>
+</html>

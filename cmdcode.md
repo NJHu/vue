@@ -41,4 +41,15 @@ npm run serve & npm run dev
 
 ```
 
-
+```
+<div style="background-color: #52a64b">
+<div style="display: inline-block; width: 48%; text-align: center">
+<div style="text-align: center; color: white">加入iOS技术微信群，享有更多互动</div>
+<img src="./images/qun.jpg" width="42%"/>
+</div>
+<div style="display: inline-block; width: 48%; text-align: center">
+<div style="text-align: center; color: white">作者微信:</div>
+<img src="./images/nj.jpg" width="42%"/>
+</div>
+</div>
+```

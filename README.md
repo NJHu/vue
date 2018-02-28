@@ -9,4 +9,4 @@
 
 - node.js初级知识，只需要会npm的使用和项目初始化就可以了
 
-
+<img src="./githubimages/studypath.png" width="50%">

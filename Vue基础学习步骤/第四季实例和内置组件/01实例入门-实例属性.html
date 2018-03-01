@@ -6,6 +6,7 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+    <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
     <title>Helloworld</title>
 </head>
 <body>
@@ -13,44 +14,33 @@
 <hr>
 <div id="app">
     {{message}}
-    <my-component></my-component>
+    <p>{{num}}</p>
+    <button v-on:click="add()">内部加法</button>
+    <button onclick="callAppAdd()">外部加法</button>
 </div>
-<hr>
-<div id="app2">
-    {{message}}
-    <jubu-component></jubu-component>
-</div>
-<hr>
-
 
 <script type="text/javascript">
-    Vue.component('my-component', {
-        template: '<div style="color:red;">全局化注册的sss标签</div>'
-    })
-
     var app = new Vue({
         el: "#app",
         data() {
             return {
-                message: '我是全局'
-            }
-        }
-    })
-
-    var app2 = new Vue({
-        el: "#app2",
-        data() {
-            return {
-                message: '我是局部'
+                message: 'hello world',
+                num: 1
             }
         },
-        components: {
-            "jubu-component": {
-                template: '<img src="https://raw.githubusercontent.com/NJHu/iOSProject/master/images/sp/sytab.png" width="100px" height="100px">'
+        mounted: function () {
+            $('#app').style.color('red');
+        },
+        methods: {
+            add: function () {
+                this.num += 1;
             }
         }
     })
 
+    function callAppAdd() {
+        app.add();
+    }
 </script>
 
 </body>

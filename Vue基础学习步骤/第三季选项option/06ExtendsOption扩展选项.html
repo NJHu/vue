@@ -12,18 +12,41 @@
 <!--<h1>Hello World</h1>-->
 <hr>
 <div id="app">
-    {{message}}
-
+    {{num}}
+    <p>
+        <button @click="add">add</button>
+    </p>
 </div>
 
 <script type="text/javascript">
+
+    var extendOp = {
+        methods: {
+            add: function () {
+                alert('extendOp-methods-add');
+            }
+        },
+        updated: function () {
+            alert('extendOp-updated');
+        }
+    }
+
     var app = new Vue({
         el: "#app",
         data() {
             return {
-                message: 'hello world'
+                num: 1
             }
-        }
+        },
+        methods: {
+            add: function () {
+                this.num++;
+            }
+        },
+        updated: function () {
+            alert('updated')
+        },
+        extends: extendOp
     })
 </script>
 

@@ -13,10 +13,23 @@
 <hr>
 <div id="app">
     {{message}}
-
 </div>
 
+<header-a></header-a>
+
 <script type="text/javascript">
+    var header_a = Vue.extend({
+        template: `<p>{{extendMessage}} == {{extendValue}} == props01: {{props01}}</p>`,
+        data() {
+            return {
+                extendMessage: '我是谁',
+                extendValue: 'MMMM'
+            }
+        },
+        props: ['props01']
+    })
+    new header_a({propsData: {props01: '我是props01 Value'}}).$mount('header-a');
+
     var app = new Vue({
         el: "#app",
         data() {

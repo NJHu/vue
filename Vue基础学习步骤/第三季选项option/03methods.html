@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script type="text/javascript" src="../../myassets/js/vue.js"></script>
+    <title>Helloworld</title>
+</head>
+<body>
+<!--<h1>Hello World</h1>-->
+<hr>
+<div id="app">
+    {{message}}
+    <p>{{num}}</p>
+    <button v-on:click="add">加法</button>
+    <button v-on:click="addNum(3)">加法3</button>
+    <button v-on:click="seeEvent($event)">seeEvent</button>
+    <p>{{logEvent}}</p>
+    <btn @click.native="add"></btn>
+    <hr>
+    <btn onclick="app.add()"></btn>
+</div>
+
+<script type="text/javascript">
+    var btn = {
+        template: `<button>btnAdd</button>`
+    }
+
+    var app = new Vue({
+        el: "#app",
+        data() {
+            return {
+                message: 'hello world',
+                num: 0,
+                logEvent: {}
+            }
+        },
+        methods: {
+            add: function () {
+                this.num++;
+            },
+            addNum: function (plusNum) {
+                this.num += plusNum;
+            },
+            seeEvent: function (event) {
+                console.log(event);
+                this.logEvent = event;
+            }
+        },
+        components: {
+            "btn": btn
+        }
+    })
+</script>
+
+</body>
+</html>

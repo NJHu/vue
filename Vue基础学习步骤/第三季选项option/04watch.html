@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script type="text/javascript" src="../../myassets/js/vue.js"></script>
+    <title>Helloworld</title>
+</head>
+<body>
+<!--<h1>Hello World</h1>-->
+<hr>
+<div id="app">
+    {{message}}
+    <p>|{{suggestion}}|</p>
+    <hr>
+    <button @click="randomTem">生成随机数</button>
+</div>
+
+<script type="text/javascript">
+
+    var app = new Vue({
+        el: "#app",
+        data() {
+            return {
+                message: 'hello world',
+                templeature: 0,
+                suggestion: null
+            }
+        },
+        watch: {
+            templeature: function (newVal, oldVal) {
+                if (newVal < 3) {
+                    this.suggestion = 'a';
+                } else if (newVal > 3 && newVal < 7) {
+                    this.suggestion = 'b';
+                } else {
+                    this.suggestion = 'c';
+                }
+            }
+        },
+        methods: {
+            randomTem: function () {
+                this.templeature = Math.floor(Math.random() * 10);
+            }
+        }
+    })
+</script>
+
+</body>
+</html>

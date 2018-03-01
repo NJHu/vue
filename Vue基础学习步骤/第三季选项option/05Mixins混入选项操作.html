@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script type="text/javascript" src="../../myassets/js/vue.js"></script>
+    <title>Helloworld</title>
+</head>
+<body>
+<!--<h1>Hello World</h1>-->
+<hr>
+<div id="app">
+    {{message}}
+    <p>num:{{ num }}</p>
+    <p>
+        <button @click="add">增加数量</button>
+    </p>
+    <button @click="minus">减少数量</button>
+</div>
+
+<script type="text/javascript">
+    //    全局API混入方式
+    Vue.mixin({
+        beforeUpdate: function () {
+            console.log('我是全局被混入的');
+            alert('我是全局被混入的=mixin-beforeUpdate');
+        }
+    })
+
+    //额外临时加入时，用于显示日志
+    var addLog = {
+        updated: function () {
+            console.log("数据放生变化,变化成" + this.num + ".");
+            alert(this.num);
+        },
+        // 构造器重名, 不起作用
+        methods: {
+            minus: function () {
+                alert('--------');
+            }
+        }
+    }
+
+    var app = new Vue({
+        el: "#app",
+        data() {
+            return {
+                message: 'hello world',
+                num: 1
+            }
+        },
+        methods: {
+            add: function () {
+                this.num += 1;
+            },
+            minus: function () {
+                this.num -= 1;
+            }
+        },
+        mixins: [addLog],
+        updated: function () {
+            alert('======');
+        },
+        beforeUpdate: function () {
+            alert('beforeUpdate');
+        }
+    })
+</script>
+
+</body>
+</html>

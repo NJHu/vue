@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script type="text/javascript" src="../../myassets/js/vue.js"></script>
+    <title>Helloworld</title>
+</head>
+<body>
+<!--<h1>Hello World</h1>-->
+<hr>
+<div id="app">
+    {{message}}
+    <my-component></my-component>
+</div>
+<hr>
+<div id="app2">
+    {{message}}
+    <jubu-component></jubu-component>
+</div>
+<hr>
+
+
+<script type="text/javascript">
+    Vue.component('my-component', {
+        template: '<div style="color:red;">全局化注册的sss标签</div>'
+    })
+
+    var app = new Vue({
+        el: "#app",
+        data() {
+            return {
+                message: '我是全局'
+            }
+        }
+    })
+
+    var app2 = new Vue({
+        el: "#app2",
+        data() {
+            return {
+                message: '我是局部'
+            }
+        },
+        components: {
+            "jubu-component": {
+                template: '<img src="https://raw.githubusercontent.com/NJHu/iOSProject/master/images/sp/sytab.png" width="100px" height="100px">'
+            }
+        }
+    })
+
+</script>
+
+</body>
+</html>

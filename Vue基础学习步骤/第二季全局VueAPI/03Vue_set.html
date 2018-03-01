@@ -47,7 +47,10 @@
     function changeArr() {
         console.log('================');
 //        app2.arr[1] = 'ddd';
-        Vue.set(app2.arr, 1, 'ddd');
+        // 方法一
+        Vue.set(app2.arr, 2, 'ddd');
+        // 方法二
+        app2.arr.splice(1, 1, 'pppppp');
     }
 
     // MARK ===============================

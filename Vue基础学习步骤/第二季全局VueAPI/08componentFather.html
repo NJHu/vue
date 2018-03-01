@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script type="text/javascript" src="../../myassets/js/vue.js"></script>
+    <title>Helloworld</title>
+</head>
+<body>
+<div id="app">
+    <hr>
+    <random-name where="我是全局局部注册"></random-name>
+    <hr>
+    <qian-tao father-where="我是局部嵌套"></qian-tao>
+    <hr>
+    <qian-tao-2 qiao-tao02-params="我是全局嵌套"></qian-tao-2>
+</div>
+
+<script type="text/javascript">
+
+    var component01 = {
+        template: '<div>Panda from {{where}}!</div>',
+        props: ['where']
+    }
+
+    var qianTao02 = {
+        template: `<div>{{qiaoTao02Params}}
+                    <qiaotao-random-name02 where="meiguo"></qiaotao-random-name02>
+                    </div>`,
+        props: ['qiaoTao02Params'],
+        components: {
+            'qiaotao-random-name02': component01
+        }
+    }
+
+    var app = new Vue({
+        el: "#app",
+        data: {
+            message: 'hello world'
+        },
+        components: {
+            "randomName": component01,
+            "qian-tao": {
+                template: `<div> + {{fatherWhere}} 的 div
+                            <qiaotao-random-name :where="fatherWhere">
+                             </qiaotao-random-name></div>`,
+                components: {
+                    "qiaotao-random-name": component01
+                },
+                props: ['fatherWhere']
+            },
+            "qian-tao-2": qianTao02
+        }
+    })
+</script>
+
+</body>
+</html>

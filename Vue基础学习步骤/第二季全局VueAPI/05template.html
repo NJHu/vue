@@ -17,9 +17,6 @@
 
 <div id="app2">
     {{message}}
-    <!--<div style="position: fixed; left: 0; z-index: 100"><img src="./images/qun.jpg" width="18%"/></div>-->
-    <!--<div style="position: fixed; right: 0; z-index: 100"><img src="./images/nj.jpg" width="18%"/></div>-->
-
 </div>
 
 <div id="app3">
@@ -41,9 +38,7 @@
         data: {
             message: 'hello world'
         },
-        template: `
-                <h1 style="color: red">我是选项模板</h1>
-                `
+        template: '<h1 style="color: red">我是选项模板</h1>'
     })
 
     var app2 = new Vue({

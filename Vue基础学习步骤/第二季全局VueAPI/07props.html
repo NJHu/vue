@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script type="text/javascript" src="../../myassets/js/vue.js"></script>
+    <title>Helloworld</title>
+</head>
+<body>
+<h1>Hello World</h1>
+<hr>
+<div id="app">
+    {{message}}
+    <location-here here="shanghai" from-where="meiguo"></location-here>
+    <location-here v-bind:here="locaiton" :from-where="fromWhereLocation"></location-here>
+</div>
+
+<script type="text/javascript">
+    var app = new Vue({
+        el: "#app",
+        data: {
+            message: 'hello world',
+            locaiton: 'beijing',
+            fromWhereLocation: 'yingguo'
+        },
+        components: {
+            'location-here': {
+                template: '<div style="color: red">| {{here}} | {{fromWhere}} |</div>',
+                props: ['here', 'fromWhere']
+            }
+        }
+    })
+</script>
+
+</body>
+</html>

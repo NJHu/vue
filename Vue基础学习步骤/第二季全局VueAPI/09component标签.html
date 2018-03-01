@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script type="text/javascript" src="../../myassets/js/vue.js"></script>
+    <title>Helloworld</title>
+</head>
+<body>
+<div id="app">
+    {{message}}
+    <component-a></component-a>
+    <component-b></component-b>
+    <component-c></component-c>
+
+    <hr>
+    <component v-bind:is="whoComponent"></component>
+
+    <button @click="changeComponent">changeComponent</button>
+</div>
+
+<script type="text/javascript">
+    var componentA = {
+        template: `<div>I'm componentA</div>`
+    }
+    var componentB = {
+        template: `<div>I'm componentB</div>`
+    }
+    var componentC = {
+        template: `<div>I'm componentC</div>`
+    }
+    var app = new Vue({
+        el: "#app",
+        data() {
+            return {
+                message: 'hello world',
+                whoComponent: 'componentA'
+            }
+        },
+        components: {
+            "componentA": componentA,
+            "componentB": componentB,
+            "componentC": componentC
+        },
+        methods: {
+            changeComponent: function () {
+                if (this.whoComponent == 'componentA') {
+                    this.whoComponent = 'componentB';
+                } else if (this.whoComponent == 'componentB') {
+                    this.whoComponent = 'componentC';
+                } else {
+                    this.whoComponent = 'componentA';
+                }
+            }
+        }
+    })
+</script>
+
+</body>
+</html>

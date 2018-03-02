@@ -20,7 +20,7 @@
 ## Vue 的基础学习
 
 <div>
-<img src="./githubimages/jichudemo.png" width="33%"><img src="./githubimages/jicchumulu.jpg" width="33%"><img src="./githubimages/Snip20180302_25.png" width="33%">
+<img src="./githubimages/jichudemo.png" width="33%" height="500px"><img src="./githubimages/jicchumulu.jpg" width="33%" height="500px"><img src="./githubimages/Snip20180302_25.png" width="33%" height="500px">
 </div>
 
 

@@ -6,7 +6,6 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <script src="https://cdn.jsdelivr.net/npm/vue"></script>
-    <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
     <title>Helloworld</title>
 </head>
 <body>
@@ -14,34 +13,42 @@
 <hr>
 <div id="app">
     {{message}}
-    <p>{{num}}</p>
-    <button v-on:click="add()">内部加法</button>
+    <student>
+        <label slot="nickName">{{student.name}}</label>
+        <span slot="userScore">{{student.score}}</span>
+        <span slot="userAge">{{student.age}}</span>
+    </student>
 </div>
-<button onclick="callAppAdd()">外部加法</button>
+
+<template id="tmp">
+    <div>
+        <p>name: <slot name="nickName"></slot></p>
+        <p>score: <slot name="userScore"></slot></p>
+        <p>age: <slot name="userAge"></slot></p>
+    </div>
+</template>
 
 <script type="text/javascript">
+    let cmp = {
+        template: '#tmp'
+    }
+
     var app = new Vue({
         el: "#app",
         data() {
             return {
                 message: 'hello world',
-                num: 1
+                student: {
+                    name: "jim",
+                    age: 19,
+                    score: 99
+                }
             }
         },
-        mounted: function () {
-            console.log($('#app'));
-            $('#app')[0].style.backgroundColor = 'red';
-        },
-        methods: {
-            add: function () {
-                this.num += 1;
-            }
+        components: {
+            "student": cmp
         }
     })
-
-    function callAppAdd() {
-        app.add();
-    }
 </script>
 
 </body>

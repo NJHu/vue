@@ -2,33 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d7025fa1-d259-4cb2-a116-9e05be780f08" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vue基础学习步骤/第四季实例和内置组件/01实例入门-实例属性.html" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myassets/js/vue.js" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vue基础学习步骤/第四季实例和内置组件/02实例方法.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vue基础学习步骤/第四季实例和内置组件/03实例事件.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vue基础学习步骤/第四季实例和内置组件/04内置组件slot.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Vue基础学习步骤/index.html" afterPath="$PROJECT_DIR$/Vue基础学习步骤/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Vue基础学习步骤/第一季内部指令/01helloworld.html" afterPath="$PROJECT_DIR$/Vue基础学习步骤/第一季内部指令/01helloworld.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Vue基础学习步骤/第一季内部指令/02v-if_show.html" afterPath="$PROJECT_DIR$/Vue基础学习步骤/第一季内部指令/02v-if_show.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Vue基础学习步骤/第一季内部指令/03v-for.html" afterPath="$PROJECT_DIR$/Vue基础学习步骤/第一季内部指令/03v-for.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Vue基础学习步骤/第一季内部指令/04v-text_html.html" afterPath="$PROJECT_DIR$/Vue基础学习步骤/第一季内部指令/04v-text_html.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Vue基础学习步骤/第一季内部指令/05v-on.html" afterPath="$PROJECT_DIR$/Vue基础学习步骤/第一季内部指令/05v-on.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Vue基础学习步骤/第一季内部指令/06v-model.html" afterPath="$PROJECT_DIR$/Vue基础学习步骤/第一季内部指令/06v-model.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Vue基础学习步骤/第一季内部指令/07v-bind.html" afterPath="$PROJECT_DIR$/Vue基础学习步骤/第一季内部指令/07v-bind.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Vue基础学习步骤/第一季内部指令/08v-others.html" afterPath="$PROJECT_DIR$/Vue基础学习步骤/第一季内部指令/08v-others.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Vue基础学习步骤/第三季选项option/01propsData.html" afterPath="$PROJECT_DIR$/Vue基础学习步骤/第三季选项option/01propsData.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Vue基础学习步骤/第三季选项option/02computed.html" afterPath="$PROJECT_DIR$/Vue基础学习步骤/第三季选项option/02computed.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Vue基础学习步骤/第三季选项option/03methods.html" afterPath="$PROJECT_DIR$/Vue基础学习步骤/第三季选项option/03methods.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Vue基础学习步骤/第三季选项option/04watch.html" afterPath="$PROJECT_DIR$/Vue基础学习步骤/第三季选项option/04watch.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Vue基础学习步骤/第三季选项option/05Mixins混入选项操作.html" afterPath="$PROJECT_DIR$/Vue基础学习步骤/第三季选项option/05Mixins混入选项操作.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Vue基础学习步骤/第三季选项option/06ExtendsOption扩展选项.html" afterPath="$PROJECT_DIR$/Vue基础学习步骤/第三季选项option/06ExtendsOption扩展选项.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Vue基础学习步骤/第二季全局VueAPI/01Vue_directive.html" afterPath="$PROJECT_DIR$/Vue基础学习步骤/第二季全局VueAPI/01Vue_directive.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Vue基础学习步骤/第二季全局VueAPI/02Vue_extend.html" afterPath="$PROJECT_DIR$/Vue基础学习步骤/第二季全局VueAPI/02Vue_extend.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Vue基础学习步骤/第二季全局VueAPI/03Vue_set.html" afterPath="$PROJECT_DIR$/Vue基础学习步骤/第二季全局VueAPI/03Vue_set.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Vue基础学习步骤/第二季全局VueAPI/04Vue_life.html" afterPath="$PROJECT_DIR$/Vue基础学习步骤/第二季全局VueAPI/04Vue_life.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Vue基础学习步骤/第二季全局VueAPI/05template.html" afterPath="$PROJECT_DIR$/Vue基础学习步骤/第二季全局VueAPI/05template.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Vue基础学习步骤/第二季全局VueAPI/06component.html" afterPath="$PROJECT_DIR$/Vue基础学习步骤/第二季全局VueAPI/06component.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Vue基础学习步骤/第二季全局VueAPI/07props.html" afterPath="$PROJECT_DIR$/Vue基础学习步骤/第二季全局VueAPI/07props.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Vue基础学习步骤/第二季全局VueAPI/08componentFather.html" afterPath="$PROJECT_DIR$/Vue基础学习步骤/第二季全局VueAPI/08componentFather.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Vue基础学习步骤/第二季全局VueAPI/09component标签.html" afterPath="$PROJECT_DIR$/Vue基础学习步骤/第二季全局VueAPI/09component标签.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Vue基础学习步骤/第四季实例和内置组件/01实例入门-实例属性.html" afterPath="$PROJECT_DIR$/Vue基础学习步骤/第四季实例和内置组件/01实例入门-实例属性.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -45,58 +31,75 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Vue基础学习步骤/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="7" column="4" lean-forward="false" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="60" />
+            <state relative-caret-position="506">
+              <caret line="53" column="42" lean-forward="true" selection-start-line="53" selection-start-column="42" selection-end-line="53" selection-end-column="42" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="03Vue_set.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Vue基础学习步骤/第二季全局VueAPI/03Vue_set.html">
+      <file leaf-file-name="05template.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Vue基础学习步骤/第二季全局VueAPI/05template.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="369">
-              <caret line="47" column="24" lean-forward="false" selection-start-line="47" selection-start-column="24" selection-end-line="47" selection-end-column="24" />
+            <state relative-caret-position="438">
+              <caret line="42" column="0" lean-forward="true" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+              <folding>
+                <element signature="n#style#0;n#h2#0;n#template#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <marker date="1519972328719" expanded="true" signature="869:879" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="08componentFather.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Vue基础学习步骤/第二季全局VueAPI/08componentFather.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="667">
+              <caret line="42" column="21" lean-forward="true" selection-start-line="42" selection-start-column="21" selection-end-line="42" selection-end-column="21" />
+              <folding>
+                <marker date="1519905112057" expanded="true" signature="764:893" ph="..." />
+                <marker date="1519905112057" expanded="true" signature="1245:1398" ph="..." />
+                <marker date="1519905112057" expanded="true" signature="1340:1392" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="09component标签.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Vue基础学习步骤/第二季全局VueAPI/09component标签.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="752">
+              <caret line="47" column="29" lean-forward="false" selection-start-line="47" selection-start-column="29" selection-end-line="47" selection-end-column="29" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="04Vue_life.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Vue基础学习步骤/第二季全局VueAPI/04Vue_life.html">
+      <file leaf-file-name="01实例入门-实例属性.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Vue基础学习步骤/第四季实例和内置组件/01实例入门-实例属性.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="37" column="22" lean-forward="false" selection-start-line="37" selection-start-column="10" selection-end-line="37" selection-end-column="22" />
+            <state relative-caret-position="409">
+              <caret line="30" column="30" lean-forward="true" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="30" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="05v-on.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Vue基础学习步骤/第一季内部指令/05v-on.html">
+      <file leaf-file-name="02实例方法.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Vue基础学习步骤/第四季实例和内置组件/02实例方法.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="128">
-              <caret line="8" column="28" lean-forward="true" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+            <state relative-caret-position="388">
+              <caret line="35" column="29" lean-forward="true" selection-start-line="35" selection-start-column="29" selection-end-line="35" selection-end-column="29" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="05Mixins混入选项操作.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Vue基础学习步骤/第三季选项option/05Mixins混入选项操作.html">
+      <file leaf-file-name="03methods.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Vue基础学习步骤/第三季选项option/03methods.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="66" column="19" lean-forward="false" selection-start-line="66" selection-start-column="19" selection-end-line="66" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="02v-if_show.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Vue基础学习步骤/第一季内部指令/02v-if_show.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="14" column="24" lean-forward="true" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+            <state relative-caret-position="307">
+              <caret line="25" column="26" lean-forward="false" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -105,38 +108,28 @@
       <file leaf-file-name="01helloworld.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Vue基础学习步骤/第一季内部指令/01helloworld.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="7" column="4" lean-forward="false" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+            <state relative-caret-position="480">
+              <caret line="30" column="7" lean-forward="true" selection-start-line="30" selection-start-column="7" selection-end-line="30" selection-end-column="7" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="06ExtendsOption扩展选项.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Vue基础学习步骤/第三季选项option/06ExtendsOption扩展选项.html">
+      <file leaf-file-name="03实例事件.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Vue基础学习步骤/第四季实例和内置组件/03实例事件.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="393">
-              <caret line="38" column="13" lean-forward="false" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
+            <state relative-caret-position="495">
+              <caret line="41" column="29" lean-forward="true" selection-start-line="41" selection-start-column="29" selection-end-line="41" selection-end-column="29" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="01实例入门-实例属性.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Vue基础学习步骤/第四季实例和内置组件/01实例入门-实例属性.html">
+      <file leaf-file-name="04内置组件slot.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Vue基础学习步骤/第四季实例和内置组件/04内置组件slot.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="496">
-              <caret line="31" column="28" lean-forward="false" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="02Vue_extend.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Vue基础学习步骤/第二季全局VueAPI/02Vue_extend.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="411">
-              <caret line="32" column="15" lean-forward="false" selection-start-line="32" selection-start-column="15" selection-end-line="32" selection-end-column="15" />
+            <state relative-caret-position="640">
+              <caret line="40" column="8" lean-forward="true" selection-start-line="40" selection-start-column="8" selection-end-line="40" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -147,6 +140,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>&lt;script type=&quot;text/javascript&quot; src=&quot;../../myassets/js/vue.js&quot;&gt;&lt;/script&gt;</find>
+      <find>.native</find>
     </findStrings>
     <replaceStrings>
       <replace>&lt;script src=&quot;https://cdn.jsdelivr.net/npm/vue&quot;&gt;&lt;/script&gt;</replace>
@@ -167,29 +161,33 @@
         <option value="$PROJECT_DIR$/Vue基础学习步骤/第一季内部指令/03v-for.html" />
         <option value="$PROJECT_DIR$/Vue基础学习步骤/第一季内部指令/04v-text_html.html" />
         <option value="$PROJECT_DIR$/Vue基础学习步骤/第一季内部指令/05v-on.html" />
-        <option value="$PROJECT_DIR$/Vue基础学习步骤/第一季内部指令/06v-model.html" />
-        <option value="$PROJECT_DIR$/Vue基础学习步骤/第一季内部指令/07v-bind.html" />
         <option value="$PROJECT_DIR$/Vue基础学习步骤/第一季内部指令/08v-others.html" />
         <option value="$PROJECT_DIR$/Vue基础学习步骤/第二季全局API/01directive.html" />
-        <option value="$PROJECT_DIR$/Vue基础学习步骤/第二季全局VueAPI/02Vue_extend.html" />
-        <option value="$PROJECT_DIR$/Vue基础学习步骤/第二季全局VueAPI/04Vue_life.html" />
         <option value="$PROJECT_DIR$/cmdcode.md" />
         <option value="$PROJECT_DIR$/Vue基础学习步骤/第二季全局VueAPI/03Vue_set.html" />
-        <option value="$PROJECT_DIR$/Vue基础学习步骤/第二季全局VueAPI/05template.html" />
-        <option value="$PROJECT_DIR$/Vue基础学习步骤/第二季全局VueAPI/06component.html" />
         <option value="$PROJECT_DIR$/Vue基础学习步骤/第二季全局VueAPI/07props.html" />
         <option value="$PROJECT_DIR$/Vue基础学习步骤/第二季全局VueAPI/08componentFather.html" />
         <option value="$PROJECT_DIR$/Vue基础学习步骤/第二季全局VueAPI/09component标签.html" />
         <option value="$PROJECT_DIR$/Vue基础学习步骤/第三季选项option/01propsData.html" />
         <option value="$PROJECT_DIR$/Vue基础学习步骤/第三季选项option/02computed.html" />
-        <option value="$PROJECT_DIR$/Vue基础学习步骤/第三季选项option/03methods.html" />
         <option value="$PROJECT_DIR$/Vue基础学习步骤/第三季选项option/04watch.html" />
         <option value="$PROJECT_DIR$/Vue基础学习步骤/第三季选项option/05Mixins混入选项操作.html" />
         <option value="$PROJECT_DIR$/Vue基础学习步骤/第三季选项option/06ExtendsOption扩展选项.html" />
-        <option value="$PROJECT_DIR$/Vue基础学习步骤/index.html" />
         <option value="$PROJECT_DIR$/Vue基础学习步骤/第一季内部指令/01helloworld.html" />
         <option value="$PROJECT_DIR$/Vue基础学习步骤/第一季内部指令/02v-if_show.html" />
+        <option value="$PROJECT_DIR$/Vue基础学习步骤/第一季内部指令/06v-model.html" />
+        <option value="$PROJECT_DIR$/Vue基础学习步骤/第一季内部指令/07v-bind.html" />
+        <option value="$PROJECT_DIR$/Vue基础学习步骤/第二季全局VueAPI/04Vue_life.html" />
+        <option value="$PROJECT_DIR$/Vue基础学习步骤/第二季全局VueAPI/05template.html" />
+        <option value="$PROJECT_DIR$/Vue基础学习步骤/第二季全局VueAPI/06component.html" />
+        <option value="$PROJECT_DIR$/Vue基础学习步骤/第二季全局VueAPI/02Vue_extend.html" />
         <option value="$PROJECT_DIR$/Vue基础学习步骤/第四季实例和内置组件/01实例入门-实例属性.html" />
+        <option value="$PROJECT_DIR$/Vue基础学习步骤/第四季实例和内置组件/02实例方法.html" />
+        <option value="$PROJECT_DIR$/Vue基础学习步骤/第四季实例和内置组件/03实例事件.html" />
+        <option value="$PROJECT_DIR$/Vue基础学习步骤/第三季选项option/03methods.html" />
+        <option value="$PROJECT_DIR$/Vue基础学习步骤/第四季实例和内置组件/05内置组件slot.html" />
+        <option value="$PROJECT_DIR$/Vue基础学习步骤/index.html" />
+        <option value="$PROJECT_DIR$/Vue基础学习步骤/第四季实例和内置组件/04内置组件slot.html" />
       </list>
     </option>
   </component>
@@ -200,7 +198,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
-    <option name="x" value="35" />
+    <option name="x" value="30" />
     <option name="y" value="23" />
     <option name="width" value="1405" />
     <option name="height" value="827" />
@@ -235,6 +233,24 @@
               <item name="vue" type="b2602c69:ProjectViewProjectNode" />
               <item name="vue" type="462c0819:PsiDirectoryNode" />
               <item name="Vue基础学习步骤" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vue" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vue" type="462c0819:PsiDirectoryNode" />
+              <item name="Vue基础学习步骤" type="462c0819:PsiDirectoryNode" />
+              <item name="第一季内部指令" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vue" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vue" type="462c0819:PsiDirectoryNode" />
+              <item name="Vue基础学习步骤" type="462c0819:PsiDirectoryNode" />
+              <item name="第三季选项option" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vue" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vue" type="462c0819:PsiDirectoryNode" />
+              <item name="Vue基础学习步骤" type="462c0819:PsiDirectoryNode" />
+              <item name="第二季全局VueAPI" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="vue" type="b2602c69:ProjectViewProjectNode" />
@@ -286,18 +302,18 @@
       <updated>1519729247855</updated>
       <workItem from="1519729249499" duration="20136000" />
       <workItem from="1519866523361" duration="19000" />
-      <workItem from="1519869286122" duration="14390000" />
+      <workItem from="1519869286122" duration="28607000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34545000" />
+    <option name="totallyTimeSpent" value="48762000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1025" height="900" extended-state="6" />
+    <frame x="0" y="0" width="856" height="900" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23605578" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3473054" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -326,33 +342,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Vue基础学习步骤/第二季全局VueAPI/03Vue_set.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="22" column="26" lean-forward="false" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Vue基础学习步骤/第二季全局VueAPI/04Vue_life.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="23" column="4" lean-forward="false" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Vue基础学习步骤/第二季全局VueAPI/05template.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="560">
-          <caret line="35" column="9" lean-forward="true" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
-          <folding>
-            <element signature="n#style#0;n#h2#0;n#template#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1519905112043" expanded="true" signature="862:872" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Vue基础学习步骤/第一季内部指令/05v-on.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="496">
@@ -433,7 +422,7 @@
           <caret line="18" column="15" lean-forward="true" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
           <folding>
             <element signature="n#style#0;n#h2#0;n#template#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1519905112043" expanded="true" signature="862:872" ph="..." />
+            <marker date="1519972328719" expanded="true" signature="869:879" ph="..." />
           </folding>
         </state>
       </provider>
@@ -512,97 +501,160 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Vue基础学习步骤/第一季内部指令/02v-if_show.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="21" column="22" lean-forward="false" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Vue基础学习步骤/第一季内部指令/03v-for.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-142">
-          <caret line="19" column="8" lean-forward="false" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Vue基础学习步骤/第一季内部指令/08v-others.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118">
-          <caret line="19" column="6" lean-forward="true" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Vue基础学习步骤/第一季内部指令/07v-bind.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="28" column="43" lean-forward="true" selection-start-line="28" selection-start-column="43" selection-end-line="28" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Vue基础学习步骤/第一季内部指令/06v-model.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="474">
-          <caret line="62" column="18" lean-forward="true" selection-start-line="62" selection-start-column="18" selection-end-line="62" selection-end-column="18" />
+        <state relative-caret-position="266">
+          <caret line="39" column="36" lean-forward="true" selection-start-line="39" selection-start-column="36" selection-end-line="39" selection-end-column="36" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Vue基础学习步骤/第一季内部指令/04v-text_html.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="21" column="19" lean-forward="false" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
+        <state relative-caret-position="304">
+          <caret line="19" column="31" lean-forward="true" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vue基础学习步骤/第一季内部指令/06v-model.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="428">
+          <caret line="47" column="24" lean-forward="true" selection-start-line="47" selection-start-column="24" selection-end-line="47" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vue基础学习步骤/第一季内部指令/07v-bind.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="401">
+          <caret line="47" column="27" lean-forward="false" selection-start-line="47" selection-start-column="27" selection-end-line="47" selection-end-column="27" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vue基础学习步骤/第一季内部指令/08v-others.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="457">
+          <caret line="34" column="6" lean-forward="true" selection-start-line="34" selection-start-column="6" selection-end-line="34" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vue基础学习步骤/第三季选项option/02computed.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="502">
+          <caret line="38" column="30" lean-forward="false" selection-start-line="38" selection-start-column="22" selection-end-line="38" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vue基础学习步骤/第三季选项option/04watch.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="25" column="20" lean-forward="true" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vue基础学习步骤/第三季选项option/05Mixins混入选项操作.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="428">
+          <caret line="54" column="12" lean-forward="false" selection-start-line="54" selection-start-column="12" selection-end-line="54" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vue基础学习步骤/第三季选项option/06ExtendsOption扩展选项.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="38" column="13" lean-forward="true" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vue基础学习步骤/第一季内部指令/05v-on.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="44" column="34" lean-forward="true" selection-start-line="44" selection-start-column="34" selection-end-line="44" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vue基础学习步骤/第三季选项option/01propsData.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="27" column="10" lean-forward="true" selection-start-line="27" selection-start-column="10" selection-end-line="27" selection-end-column="10" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Vue基础学习步骤/第二季全局VueAPI/01Vue_directive.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="29" column="36" lean-forward="false" selection-start-line="29" selection-start-column="36" selection-end-line="29" selection-end-column="36" />
+        <state relative-caret-position="480">
+          <caret line="30" column="10" lean-forward="true" selection-start-line="30" selection-start-column="10" selection-end-line="30" selection-end-column="10" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Vue基础学习步骤/第二季全局VueAPI/09component标签.html">
+    <entry file="file://$PROJECT_DIR$/Vue基础学习步骤/第二季全局VueAPI/02Vue_extend.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="45" column="10" lean-forward="true" selection-start-line="45" selection-start-column="10" selection-end-line="45" selection-end-column="10" />
+        <state relative-caret-position="400">
+          <caret line="25" column="35" lean-forward="true" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vue基础学习步骤/第二季全局VueAPI/03Vue_set.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="624">
+          <caret line="54" column="0" lean-forward="true" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vue基础学习步骤/第二季全局VueAPI/04Vue_life.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1261">
+          <caret line="85" column="1" lean-forward="false" selection-start-line="85" selection-start-column="1" selection-end-line="90" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vue基础学习步骤/第二季全局VueAPI/06component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="590">
+          <caret line="46" column="13" lean-forward="true" selection-start-line="46" selection-start-column="13" selection-end-line="46" selection-end-column="13" />
+          <folding>
+            <marker date="1519972690591" expanded="true" signature="700:710" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Vue基础学习步骤/第二季全局VueAPI/07props.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="30" column="22" lean-forward="false" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
+        <state relative-caret-position="416">
+          <caret line="26" column="10" lean-forward="true" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="10" />
           <folding>
             <marker date="1519905112000" expanded="true" signature="905:915" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Vue基础学习步骤/第二季全局VueAPI/06component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="344">
-          <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-          <folding>
-            <marker date="1519905112025" expanded="true" signature="665:675" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Vue基础学习步骤/第二季全局VueAPI/05template.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="40" column="54" lean-forward="true" selection-start-line="40" selection-start-column="54" selection-end-line="40" selection-end-column="54" />
-          <folding>
-            <element signature="n#style#0;n#h2#0;n#template#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1519905112043" expanded="true" signature="862:872" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Vue基础学习步骤/第二季全局VueAPI/08componentFather.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="383">
-          <caret line="32" column="21" lean-forward="true" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
+        <state relative-caret-position="667">
+          <caret line="42" column="21" lean-forward="true" selection-start-line="42" selection-start-column="21" selection-end-line="42" selection-end-column="21" />
           <folding>
             <marker date="1519905112057" expanded="true" signature="764:893" ph="..." />
             <marker date="1519905112057" expanded="true" signature="1245:1398" ph="..." />
@@ -611,114 +663,77 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Vue基础学习步骤/第三季选项option/01propsData.html">
+    <entry file="file://$PROJECT_DIR$/Vue基础学习步骤/第二季全局VueAPI/09component标签.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="32" column="23" lean-forward="true" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Vue基础学习步骤/第三季选项option/02computed.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="34" column="16" lean-forward="true" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
+        <state relative-caret-position="752">
+          <caret line="47" column="29" lean-forward="false" selection-start-line="47" selection-start-column="29" selection-end-line="47" selection-end-column="29" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Vue基础学习步骤/第三季选项option/03methods.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="22" column="35" lean-forward="true" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Vue基础学习步骤/第三季选项option/04watch.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="30" column="10" lean-forward="false" selection-start-line="30" selection-start-column="10" selection-end-line="30" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Vue基础学习步骤/第二季全局VueAPI/03Vue_set.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="369">
-          <caret line="47" column="24" lean-forward="false" selection-start-line="47" selection-start-column="24" selection-end-line="47" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Vue基础学习步骤/第二季全局VueAPI/04Vue_life.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="37" column="22" lean-forward="false" selection-start-line="37" selection-start-column="10" selection-end-line="37" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Vue基础学习步骤/第三季选项option/05Mixins混入选项操作.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="66" column="19" lean-forward="false" selection-start-line="66" selection-start-column="19" selection-end-line="66" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Vue基础学习步骤/第二季全局VueAPI/02Vue_extend.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="411">
-          <caret line="32" column="15" lean-forward="false" selection-start-line="32" selection-start-column="15" selection-end-line="32" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Vue基础学习步骤/第三季选项option/06ExtendsOption扩展选项.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="393">
-          <caret line="38" column="13" lean-forward="false" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Vue基础学习步骤/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="7" column="4" lean-forward="false" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="60" />
+        <state relative-caret-position="307">
+          <caret line="25" column="26" lean-forward="false" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Vue基础学习步骤/第一季内部指令/01helloworld.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="7" column="4" lean-forward="false" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+        <state relative-caret-position="480">
+          <caret line="30" column="7" lean-forward="true" selection-start-line="30" selection-start-column="7" selection-end-line="30" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Vue基础学习步骤/第一季内部指令/02v-if_show.html">
+    <entry file="file://$PROJECT_DIR$/Vue基础学习步骤/第二季全局VueAPI/05template.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="14" column="24" lean-forward="true" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
-          <folding />
+        <state relative-caret-position="438">
+          <caret line="42" column="0" lean-forward="true" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#h2#0;n#template#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1519972328719" expanded="true" signature="869:879" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Vue基础学习步骤/第一季内部指令/05v-on.html">
+    <entry file="file://$PROJECT_DIR$/Vue基础学习步骤/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="8" column="28" lean-forward="true" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+        <state relative-caret-position="506">
+          <caret line="53" column="42" lean-forward="true" selection-start-line="53" selection-start-column="42" selection-end-line="53" selection-end-column="42" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Vue基础学习步骤/第四季实例和内置组件/01实例入门-实例属性.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="496">
-          <caret line="31" column="28" lean-forward="false" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="28" />
+        <state relative-caret-position="409">
+          <caret line="30" column="30" lean-forward="true" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vue基础学习步骤/第四季实例和内置组件/02实例方法.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="388">
+          <caret line="35" column="29" lean-forward="true" selection-start-line="35" selection-start-column="29" selection-end-line="35" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vue基础学习步骤/第四季实例和内置组件/03实例事件.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="41" column="29" lean-forward="true" selection-start-line="41" selection-start-column="29" selection-end-line="41" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vue基础学习步骤/第四季实例和内置组件/04内置组件slot.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="640">
+          <caret line="40" column="8" lean-forward="true" selection-start-line="40" selection-start-column="8" selection-end-line="40" selection-end-column="8" />
           <folding />
         </state>
       </provider>

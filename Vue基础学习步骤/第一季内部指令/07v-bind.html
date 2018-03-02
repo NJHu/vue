@@ -36,7 +36,7 @@
 
     <div v-bind:class="isOk ? classA : classB">4、绑定class中的三元表达式判断</div>
 
-    <div :style="{color:red,fontSize:font}">5、绑定style</div>
+    <div :style="{color:'red',fontSize:font}">5、绑定style</div>
 
     <div :style="styleObject">6、用对象绑定style样式</div>
 </div>
@@ -53,7 +53,6 @@
             classA: 'classA',
             classB: 'classB',
             font: '40px',
-            red: 'red',
             styleObject: {
                 fontSize: '24px',
                 color: 'green'

@@ -20,17 +20,23 @@
     <p>原始文本信息message：{{message}}</p>
     <h3>文本框</h3>
     <p>v-model:<input type="text" v-model="message"></p>
+
     <p>原始文本信息textareaMessage：{{textareaMessage}}</p>
     <textarea cols="30" rows="10" v-model="textareaMessage"></textarea>
+
     <p>原始文本信息lazyMessage：{{lazyMessage}}</p>
     <p>v-model:<input type="text" v-model.lazy="lazyMessage"></p>
+
     <p>原始文本信息numberMessage：{{numberMessage}}</p>
     <p>v-model:<input type="number" v-model.number="numberMessage"></p>
+
     <p>.trim：输入去掉首尾空格原始文本信息trimMessage：|{{trimMessage}}|</p>
     <p>v-model:<input type="text" v-model.trim="trimMessage"></p>
+
     <h3>多选按钮绑定一个值</h3>
     <input type="checkbox" id="isTrue" v-model="isTrue">
     <label for='isTrue'>{{isTrue}}</label>
+
     <h3>多选绑定一个数组</h3>
     <p>
         <input type="checkbox" id="JSPang" value="JSPang" v-model="web_Names">
@@ -41,6 +47,7 @@
         <label for="PanPan">PanPan</label>
     <p>{{web_Names}}</p>
     </p>
+
     <h3>单选按钮绑定</h3>
     <p>
         <input type="radio" id="one" value="男" v-model="sex">

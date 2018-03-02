@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+    <title>Helloworld</title>
+</head>
+<body>
+<!--<h1>Hello World</h1>-->
+<hr>
+<div id="app">
+    {{message}}
+</div>
+
+<button onclick="app.$forceUpdate()">强制更新 app</button>
+
+<button onclick="ex.$forceUpdate()">强制更新 ex</button>
+
+<button onclick="destoryApp()">销毁</button>
+
+<hr>
+
+<button onclick="changeName()">nextTick更改名字</button>
+
+<script type="text/javascript">
+
+    function changeName() {
+        ex.name = 'rose';
+        ex.$nextTick(function () {
+            alert(ex.name);
+        })
+        setTimeout(function () {
+            ex.name = 'jack';
+        }, 2000);
+    }
+
+    var myGlobalExntend = Vue.extend({
+        template: `<div>|{{name}}|</div>`,
+        data() {
+            return {
+                name: 'Jim'
+            }
+        },
+        destroyed: function () {
+            console.log('myGlobalExntend-destroyed 销毁之后')
+        },
+        beforeUpdate: function () {
+            console.log('beforeUpdate 数据更新前');
+        },
+        updated: function () {
+            console.log('updated 被更新后');
+        },
+        nextTick: function () {
+            console.log('data 更新啦');
+        }
+    })
+
+    var app = new Vue({
+        el: "#app",
+        data() {
+            return {
+                message: 'hello world'
+            }
+        },
+        destroyed: function () {
+            console.log('10-destroyed 销毁之后')
+        },
+        beforeUpdate: function () {
+            console.log('5-beforeUpdate 数据更新前');
+        },
+        updated: function () {
+            console.log('6-updated 被更新后');
+        },
+        nextTick: function () {
+            console.log('1-data 更新啦');
+        }
+    })
+
+    let ex = new myGlobalExntend().$mount('#app');
+
+    function destoryApp() {
+        ex.$destroy();
+        app.$destroy();
+    }
+
+</script>
+
+</body>
+</html>

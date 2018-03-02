@@ -34,8 +34,10 @@
             message: 'hello world'
         }
     })
-    new authorExtend().$mount('author');
-    new authorExtend().$mount('#needAuthorExtend');
+    let newAuthor = new authorExtend().$mount('author');
+    let newNeedAuthorExtend = new authorExtend().$mount('#needAuthorExtend');
+    console.log(newAuthor);
+    console.log(newNeedAuthorExtend);
 </script>
 
 </body>

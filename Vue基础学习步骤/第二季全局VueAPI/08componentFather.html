@@ -11,11 +11,11 @@
 <body>
 <div id="app">
     <hr>
-    <random-name where="我是全局局部注册"></random-name>
+    <component01 where="我是全局局部注册"></component01>
     <hr>
     <qian-tao father-where="我是局部嵌套"></qian-tao>
     <hr>
-    <qian-tao-2 qiao-tao02-params="我是全局嵌套"></qian-tao-2>
+    <qian-tao-02 qiao-tao02-params="我是全局嵌套"></qian-tao-02>
 </div>
 
 <script type="text/javascript">
@@ -27,11 +27,11 @@
 
     var qianTao02 = {
         template: `<div>{{qiaoTao02Params}}
-                    <qiaotao-random-name02 where="meiguo"></qiaotao-random-name02>
+                    <component01 where="meiguo"></component01>
                     </div>`,
         props: ['qiaoTao02Params'],
         components: {
-            'qiaotao-random-name02': component01
+            'component01': component01
         }
     }
 
@@ -41,17 +41,17 @@
             message: 'hello world'
         },
         components: {
-            "randomName": component01,
+            "component01": component01,
             "qian-tao": {
-                template: `<div> + {{fatherWhere}} 的 div
-                            <qiaotao-random-name :where="fatherWhere">
-                             </qiaotao-random-name></div>`,
+                template: `<div> + {{fatherWhere}} div
+                            <component01 where="yingguo">
+                             </component01></div>`,
                 components: {
-                    "qiaotao-random-name": component01
+                    "component01": component01
                 },
                 props: ['fatherWhere']
             },
-            "qian-tao-2": qianTao02
+            "qian-tao-02": qianTao02
         }
     })
 </script>

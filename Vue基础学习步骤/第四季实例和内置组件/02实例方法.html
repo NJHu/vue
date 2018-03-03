@@ -12,7 +12,11 @@
 <!--<h1>Hello World</h1>-->
 <hr>
 <div id="app">
-    {{message}}
+    {{message}}==app
+
+</div>
+<div id="tmp">
+
 </div>
 
 <button onclick="app.$forceUpdate()">强制更新 app</button>
@@ -79,7 +83,7 @@
         }
     })
 
-    let ex = new myGlobalExntend().$mount('#app');
+    let ex = new myGlobalExntend().$mount('#tmp');
 
     function destoryApp() {
         ex.$destroy();

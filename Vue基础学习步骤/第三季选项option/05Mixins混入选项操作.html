@@ -33,7 +33,7 @@
     var addLog = {
         updated: function () {
             console.log("数据放生变化,变化成" + this.num + ".");
-            alert(this.num);
+            alert(this.num + "addLog-updated");
         },
         // 构造器重名, 不起作用
         methods: {
@@ -61,7 +61,7 @@
         },
         mixins: [addLog],
         updated: function () {
-            alert('======');
+            alert('updated');
         },
         beforeUpdate: function () {
             alert('beforeUpdate');

@@ -13,18 +13,24 @@
 <hr>
 <div id="app">
     {{message}}
-    <author></author>
+    <author :value0="message"></author>
 
-    <div id="needAuthorExtend"></div>
+    <div id="needAuthorExtend" value0="message"></div>
 </div>
 
 <script type="text/javascript">
     var authorExtend = Vue.extend({
-        template: "<p><a :href='authorUrl'>{{authorName}}</a></p>",
+        template: `<div><p><a :href='authorUrl'>{{authorName}} | {{value0}}</a></p><button @click='actionLog'>logloglog</button><label>123</label></div>`,
+        props: ['value0'],
         data: function () {
             return {
                 authorName: 'njhu',
                 authorUrl: 'https://www.github.com/njhu/vue'
+            }
+        },
+        methods: {
+            actionLog: function () {
+                console.log('====');
             }
         }
     });
@@ -34,8 +40,8 @@
             message: 'hello world'
         }
     })
-    let newAuthor = new authorExtend().$mount('author');
-    let newNeedAuthorExtend = new authorExtend().$mount('#needAuthorExtend');
+    let newAuthor = new authorExtend({propsData: {value0: app.message}}).$mount('author');
+    let newNeedAuthorExtend = new authorExtend({propsData: {value0: "我是传参"}}).$mount('#needAuthorExtend');
     console.log(newAuthor);
     console.log(newNeedAuthorExtend);
 </script>

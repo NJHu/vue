@@ -19,7 +19,9 @@
 <!--<h1>Hello World</h1>-->
 <hr>
 <div id="app">
+    <p>{{message}}</p>
     {{num}}
+    <button v-on:click="reduce()">methods内部减法</button>
     <button onclick="reduce()">减法</button>
     <button onclick="app.$emit('reduceOnce')">只能执行一次</button>
     <button onclick="offReduce()">关闭</button>
@@ -33,19 +35,28 @@
                 message: 'hello world',
                 num: 0
             }
+        },
+        methods: {
+            reduce: function () {
+                this.message = Math.floor(Math.random() * 10) + "我是随机数";
+            }
         }
     })
+    //    一、$on  在构造器外部添加事件。
     app.$on('reduce', function () {
         this.num--;
     })
+    //    二、$once执行一次的事件
     app.$once('reduceOnce', function () {
         this.$emit('reduce');
-    });
+    })
 
+    //    三、$off关闭事件
     function offReduce() {
         app.$off('reduce');
     }
 
+    //外部调用内部事件
     function reduce() {
         app.$emit('reduce');
     }

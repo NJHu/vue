@@ -13,14 +13,14 @@
 <hr>
 <h1>构造器的声明周期</h1>
 <hr>
-    <keep-alive>
-        <div id="app">
-            {{message}}
-            <p>
-                <button @click="jia">加分</button>
-            </p>
-        </div>
-    </keep-alive>
+<keep-alive>
+    <div id="app">
+        {{message}}
+        <p>
+            <button @click="jia">加分</button>
+        </p>
+    </div>
+</keep-alive>
 <button onclick="app.$destroy()">销毁</button>
 <br>
 <br>
@@ -101,6 +101,7 @@
         destroyed: function () {
             console.log('10-destroyed 销毁之后')
         }
+//        console.log(app.$element);
     })
 </script>
 

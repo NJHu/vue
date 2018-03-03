@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+    <title>Helloworld</title>
+</head>
+<body>
+<hr>
+<div id="app">
+    {{message}}
+    <p>{{num}}</p>
+
+    <p><button @click='add'>加加加加</button></p>
+    <button @click='minus()'>减法减法减法减法</button>
+</div>
+
+<script type="text/javascript">
+
+    Vue.config.devtools = true; //这步很重要
+
+    Vue.mixin({
+        beforeUpdate() {
+            console.log('Vue.mixin.beforeUpdate');
+        },
+        updated () {
+            console.log('Vue.mixin-updated');
+        }
+    })
+
+    var addLog = {
+        updated () {
+            console.log('addLog-updated');
+        },
+        methods: {
+            minus() {
+                console.log('addLog-methods-minus');
+            }
+        }
+    }
+
+    var app = new Vue({
+        el: '#app',
+        data() {
+            return {
+                message: 'Helloworld',
+                num: 1
+            }
+        },
+        methods: {
+            add: function () {
+                this.num ++;
+            },
+            minus() {
+                this.num--;
+            }
+        },
+        beforeUpdate: function () {
+            console.log('beforeUpdate')
+        },
+        updated() {
+            console.log('updated');
+        },
+        mixins: [addLog]
+    })
+
+</script>
+
+</body>
+</html>

@@ -14,25 +14,46 @@
 <div id="app">
     {{message}}
     <student>
-        <label slot="nickName">{{student.name}}</label>
+        <label slot="nickName">{{student.name}}
+            <img src="https://raw.githubusercontent.com/NJHu/vue/master/githubimages/jicchumulu.jpg" width="100px"/>
+        </label>
         <span slot="userScore">{{student.score}}</span>
         <span slot="userAge">{{student.age}}</span>
     </student>
+
+    <student>
+        <!--<label slot="nickName"></label>-->
+        <!--<label slot="userScore"></label>-->
+        <!--<label slot="userAge"></label>-->
+    </student>
 </div>
+
 
 <template id="tmp">
     <div>
-        <p>name: <slot name="nickName"></slot></p>
-        <p>score: <slot name="userScore"></slot></p>
-        <p>age: <slot name="userAge"></slot></p>
+        <p>name:
+            <slot name="nickName">
+                <label>DefaultName</label>
+            </slot>
+        </p>
+        <p>age:
+            <slot name="userAge">
+                <label>DefaultAge</label>
+            </slot>
+        </p>
+        <p>score:
+            <slot name="userScore">
+                <label>DefaultScore</label>
+            </slot>
+        </p>
     </div>
 </template>
 
 <script type="text/javascript">
+
     let cmp = {
         template: '#tmp'
     }
-
     var app = new Vue({
         el: "#app",
         data() {

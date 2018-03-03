@@ -11,6 +11,7 @@
         button {
             font-size: 40px;
         }
+
         input {
             border: solid black 1px;
         }
@@ -43,7 +44,7 @@
                 this.count--;
             },
             onEnter: function () {
-                this.count = this.secondCount + 5;
+                this.count = parseFloat(this.secondCount) + 5;
             }
         }
     })

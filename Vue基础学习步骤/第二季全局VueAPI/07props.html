@@ -27,8 +27,13 @@
         },
         components: {
             'location-here': {
-                template: '<div style="color: red">| {{here}} | {{fromWhere}} |</div>',
-                props: ['here', 'fromWhere']
+                template: '<div style="color: red">| {{here}} | {{fromWhere}} | {{abc}}|</div>',
+                props: ['here', 'fromWhere'],
+                data() {
+                    return {
+                        abc: '123'
+                    }
+                }
             }
         }
     })

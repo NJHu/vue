@@ -8,7 +8,7 @@
     <script src="https://cdn.jsdelivr.net/npm/vue"></script>
     <title>Helloworld</title>
     <style type="text/css">
-        input {
+        input, textarea {
             border: 1px solid black;
         }
     </style>
@@ -18,7 +18,6 @@
 <hr>
 <div id="app" style="padding-bottom: 100px">
     <p>原始文本信息message：{{message}}</p>
-    <h3>文本框</h3>
     <p>v-model:<input type="text" v-model="message"></p>
 
     <p>原始文本信息textareaMessage：{{textareaMessage}}</p>

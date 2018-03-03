@@ -17,7 +17,7 @@
 
     <hr>
     <component v-bind:is="whoComponent"></component>
-
+    <hr>
     <button @click="changeComponent">changeComponent</button>
 </div>
 
@@ -36,7 +36,7 @@
         data() {
             return {
                 message: 'hello world',
-                whoComponent: 'componentA'
+                whoComponent: componentA
             }
         },
         components: {
@@ -46,12 +46,12 @@
         },
         methods: {
             changeComponent: function () {
-                if (this.whoComponent == 'componentA') {
-                    this.whoComponent = 'componentB';
-                } else if (this.whoComponent == 'componentB') {
-                    this.whoComponent = 'componentC';
+                if (this.whoComponent == componentA) {
+                    this.whoComponent = componentB;
+                } else if (this.whoComponent == componentB) {
+                    this.whoComponent = componentC;
                 } else {
-                    this.whoComponent = 'componentA';
+                    this.whoComponent = componentA;
                 }
             }
         }

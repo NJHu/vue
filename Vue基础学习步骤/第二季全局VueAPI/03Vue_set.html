@@ -24,6 +24,7 @@
     <button onclick="add4()">add4(): app.$data.count ++;</button>
 </div>
 
+<hr>
 <div id="app2">
     <h1>Vue.set 全局操作</h1>
     <hr>
@@ -67,6 +68,9 @@
 
     function add() {
         Vue.set(outData, 'count', 4);
+        if (Vue == app) {
+            alert('Vue == app');
+        }
     }
 
     function add2() {

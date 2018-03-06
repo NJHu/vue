@@ -1,0 +1,134 @@
+html {
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+body, div, ul, ol, dt, dd, dl, li, h1, h2, h3, h4, h5, h6, form, input, select, textarea, p, img, a, span, strong, * {
+  padding: 0;
+  margin: 0;
+}
+
+html, body {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  font-size: 0.75rem;
+  font-family: "微软雅黑";
+  color: #000000;
+  background-color: #FFFFFF;
+}
+
+ul, ol, li {
+  list-style: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 0.75rem;
+  font-weight: normal;
+}
+
+img, input, select, textarea {
+  vertical-align: middle
+}
+
+img {
+  border: none;
+}
+
+a {
+  color: #333333;
+  text-decoration: none;
+}
+
+.clear {
+  clear: both;
+  height: 0;
+  width: 0;
+  overflow: hidden;
+}
+
+/* 清除浮动 在称不开父元素宽高的时候使用 */
+.clearfix:after {
+  content: ".";
+  clear: both;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden;
+  display: block;
+}
+
+.clearfix {
+  zoom: 1;
+}
+
+/* 设置HTML5 - placeholder样式  */
+input[placeholder], [placeholder], *[placeholder] {
+  font-family: 微软雅黑;
+}
+
+/* 设置HTML5 - 默认 placeholder样式  */
+input::-webkit-input-placeholder {
+  color: #DCDCDC;
+}
+
+/* 文字超过一定长度变点点点 */
+.text_overflow {
+  width: 237px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  -o-text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+/* 去除Chrome input焦点框框  */
+input {
+  outline: none
+}
+
+.border-top:after, .border-bottom:after {
+  position: relative;
+  left: 0;
+  display: block;
+  content: '';
+  width: 100%;
+  height: 1px;
+  background-color: #DCDCDC;
+  -webkit-transform: scale(1, .5);
+  transform: scale(1, .5);
+  -webkit-transform-origin: center bottom;
+  transform-origin: center bottom
+}
+
+.border-top:after {
+  top: 0;
+}
+
+.border-bottom:after {
+  bottom: 0;
+}
+
+.border:before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  bottom: -50%;
+  left: -50%;
+  right: -50%;
+  -webkit-transform: scale(0.5);
+  transform: scale(0.5);
+  border-style: solid;
+  border-width: 1px;
+  border-color: #ae8f6b;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+}
+
+.confirm-content {
+  padding: 2.02rem 0 0.95rem 0;
+  font-size: 1rem;
+  color: #333;
+  line-height: 1.38rem;
+  text-align: center;
+}

@@ -24,12 +24,14 @@
 </div>
 
 <template id="demo2">
-    <h2 style="color:red"> 我是template标签模板 </h2>
+    <div>
+        <h2 style="color:red"> 我是template标签模板 </h2>
+    </div>
 </template>
 
 
 <script type="x-template" id="demo3">
-    <h2 style="color:red">我是script标签模板</h2>
+    <div><h2 style="color:red">我是script标签模板</h2></div>
 </script>
 
 <script type="text/javascript">
@@ -38,7 +40,7 @@
         data: {
             message: 'hello world'
         },
-        template: '<h1 style="color: red">我是选项模板</h1>'
+        template: '<div><h1 style="color: red">我是选项模板</h1></div>'
     })
 
     var app2 = new Vue({

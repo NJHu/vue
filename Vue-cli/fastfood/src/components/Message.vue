@@ -5,6 +5,7 @@
     <div>
       <!--<router-view></router-view>-->
       <router-view name="left"></router-view>
+      <br>
       <router-view name="right"></router-view>
     </div>
   </div>

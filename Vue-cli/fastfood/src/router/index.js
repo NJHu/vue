@@ -25,7 +25,7 @@ const router = new Router({
       component: () => import('../components/TabBar'),
       children: [
         {
-          path: '/tabbar/home',
+          path: 'home',
           name: 'home',
           component: () => import('../components/Home'),
           beforeEnter: (to, from, next) => {
@@ -36,7 +36,7 @@ const router = new Router({
           }
         },
         {
-          path: '/tabBar/message',
+          path: 'message',
           component: () => import('../components/Message'),
           children: [
             {
@@ -50,7 +50,7 @@ const router = new Router({
           ]
         },
         {
-          path: '/tabBar/new',
+          path: 'new',
           // name: 'new',
           component: () => import('../components/New'),
           children: [
@@ -59,19 +59,19 @@ const router = new Router({
               redirect: '/tabBar/new/page02'
             },
             {
-              path: '/tabBar/new/page02',
+              path: 'page02',
               name: 'page02',
               component: () => import('../pages/Page02')
             },
             {
-              path: '/tabBar/new/page03',
+              path: 'page03',
               name: 'page03',
               component: () => import('../pages/Page03')
             }
           ]
         },
         {
-          path: '/tabBar/me',
+          path: 'me',
           name: 'me',
           component: () => import('../components/Me')
         }

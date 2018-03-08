@@ -9,10 +9,11 @@
     <title>Helloworld</title>
 </head>
 <body>
-<h1>Hello World</h1>
 <hr>
 <div id="app">
-    {{message}}
+
+    <author></author>
+
     <author :value0="message"></author>
 
     <div id="needAuthorExtend" value0="message"></div>
@@ -37,10 +38,12 @@
     var app = new Vue({
         el: "#app",
         data: {
-            message: 'hello world'
+            message: 'hello world',
+            message2: 'WIN_win'
         }
     })
     let newAuthor = new authorExtend({propsData: {value0: app.message}}).$mount('author');
+    let newAuthor2 = new authorExtend({propsData: {value0: app.message2}}).$mount('author');
     let newNeedAuthorExtend = new authorExtend({propsData: {value0: "我是传参"}}).$mount('#needAuthorExtend');
     console.log(newAuthor);
     console.log(newNeedAuthorExtend);

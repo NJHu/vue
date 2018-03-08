@@ -52,6 +52,13 @@
         Vue.set(app2.arr, 2, 'ddd');
         // 方法二
         app2.arr.splice(1, 1, 'pppppp');
+//        index	必需。规定从何处添加/删除元素。
+//该参数是开始插入和（或）删除的数组元素的下标，必须是数字。
+
+//howmany	必需。规定应该删除多少元素。必须是数字，但可以是 "0"。
+//如果未规定此参数，则删除从 index 开始到原数组结尾的所有元素。
+
+//item1, ..., itemX	可选。要添加到数组的新元素
     }
 
     // MARK ===============================
@@ -68,7 +75,7 @@
 
     function add() {
         Vue.set(outData, 'count', 4);
-        if (Vue == app) {
+        if (Vue === app) {
             alert('Vue == app');
         }
     }

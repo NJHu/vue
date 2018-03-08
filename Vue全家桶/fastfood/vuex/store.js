@@ -1,3 +1,5 @@
+
+// 引入 vuex
 import Vue from 'vue'
 import Vuex from 'vuex'
 
@@ -8,6 +10,7 @@ const state = {
   phoneNum: 'yy13288888888xxxxxxx'
 }
 
+// 转变
 const mutations = {
   add (state, n) {
     state.count += n
@@ -38,8 +41,10 @@ const actions = {
   }
 }
 
+// 创建 store
 const store = new Vuex.Store({
   state, mutations, getters, actions
 })
 
+// export default 封装代码
 export default store

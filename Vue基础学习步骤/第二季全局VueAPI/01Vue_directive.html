@@ -31,6 +31,9 @@
             el.style = 'color:' + binding.value;
             console.log(el, binding, vnode);
             console.log('1 - bind');
+//            el: 指令所绑定的元素，可以用来直接操作DOM。
+//binding:  一个对象，包含指令的很多信息。
+//vnode: Vue编译生成的虚拟节点。
         },
         inserted: function () {//绑定到节点
             console.log('2 - inserted');

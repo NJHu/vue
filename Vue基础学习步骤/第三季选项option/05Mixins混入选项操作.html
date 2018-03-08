@@ -21,6 +21,12 @@
 </div>
 
 <script type="text/javascript">
+
+    // 执行顺序, Vue.mixin,
+    // extends: extendOp,
+    // mixins: [addLog],
+    // beforeUpdate
+
     //    全局API混入方式
     Vue.mixin({
         beforeUpdate: function () {
@@ -31,15 +37,25 @@
 
     //额外临时加入时，用于显示日志
     var addLog = {
-        updated: function () {
-            console.log("数据放生变化,变化成" + this.num + ".");
-            alert(this.num + "addLog-updated");
+        beforeUpdate: function () {
+            alert(this.num + "addLog-beforeUpdate");
         },
         // 构造器重名, 不起作用
         methods: {
             minus: function () {
                 alert('--------');
             }
+        }
+    }
+
+    var extendOp = {
+        methods: {
+            minus: function () {
+                alert('extendOp-methods-minus');
+            }
+        },
+        beforeUpdate: function () {
+            alert('extendOp-beforeUpdate');
         }
     }
 
@@ -60,8 +76,9 @@
             }
         },
         mixins: [addLog],
+        extends: extendOp,
         updated: function () {
-            alert('updated');
+//            alert('updated');
         },
         beforeUpdate: function () {
             alert('beforeUpdate');

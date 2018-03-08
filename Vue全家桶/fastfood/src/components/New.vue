@@ -1,8 +1,10 @@
 <template>
   <div class="new-wrapper">
     <p>{{msg}}</p>
+    <p>this.$router.name = {{this.$router.name}}</p>
     <p>$router.name = {{$router.name}}</p>
     <p>$route.name = {{$route.name}}</p>
+    <p>this.$route.name = {{this.$route.name}}</p>
   <div>
     <router-view class="aaa"></router-view>
   </div>

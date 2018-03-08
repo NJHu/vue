@@ -15,13 +15,15 @@
     {{message}}
 </div>
 
+<header></header>
+
 <header-a id="tmp0"></header-a>
 
 <header-a id="tmp1" props01="1111"></header-a>
 
 <script type="text/javascript">
     var header_a = Vue.extend({
-        template: `<p>{{extendMessage}}=={{extendValue}} == props01: {{props01}}</p>`,
+        template: `<div><p>{{extendMessage}}=={{extendValue}} == props01: {{props01}}</p></div>`,
         data() {
             return {
                 extendMessage: '我是谁',
@@ -31,6 +33,7 @@
         props: ['props01']
     })
     new header_a({propsData: {props01: '我是props01 Value'}}).$mount('#tmp0');
+    new header_a({propsData: {props01: '我是props01 Value-header'}}).$mount('header');
 
     new header_a({propsData: {props01: '我是props01 Value'}}).$mount('#tmp1');
 

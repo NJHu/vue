@@ -13,9 +13,10 @@
     <hr>
     <component01 where="我是全局局部注册"></component01>
     <hr>
+    <qian-tao-02 qiao-tao02-params="我是全局嵌套"></qian-tao-02>
+    <hr>
     <qian-tao father-where="我是局部嵌套"></qian-tao>
     <hr>
-    <qian-tao-02 qiao-tao02-params="我是全局嵌套"></qian-tao-02>
 </div>
 
 <script type="text/javascript">
@@ -42,6 +43,7 @@
         },
         components: {
             "component01": component01,
+            "qian-tao-02": qianTao02,
             "qian-tao": {
                 template: `<div> + {{fatherWhere}} div
                             <component01 where="yingguo">
@@ -50,8 +52,7 @@
                     "component01": component01
                 },
                 props: ['fatherWhere']
-            },
-            "qian-tao-02": qianTao02
+            }
         }
     })
 </script>

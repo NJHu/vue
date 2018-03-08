@@ -1,6 +1,10 @@
 <template>
   <div class="page01-wrapper">
     {{msg}}
+    <hr>
+    <!--<p>$route: {{JSON.toString($route)}}</p>-->
+    <!--<p>$router: {JSON.toString($router)}}</p>-->
+    <p>$route.query: {{$route.query}}</p>
     <p>新闻1_ID：{{ $route.query.newsId}}</p>
     <p>新闻1_标题：{{ $route.query.newsTitle}}</p>
   </div>
@@ -16,7 +20,6 @@ export default {
   },
   mounted: function () {
     console.log(this.$route)
-    console.log(this.$route.query)
     console.log(this.$router)
   }
 }

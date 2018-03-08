@@ -6,6 +6,7 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+    <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
     <title>Helloworld</title>
     <style type="text/css">
         [v-cloak] {
@@ -23,11 +24,11 @@
 <div id="app">
     {{message}}
     <hr>
-    v-pre指令:
-    <div v-pre>{{message}}</div>
+    v-pre指令:在模板中跳过vue的编译，直接输出原始值。就是在标签中加入v-pre就不会输出vue中的data值了。
+    <div v-pre>v-pre = {{message}}</div>
     v-cloak指令在vue渲染完指定的整个DOM后才进行显示。它必须和CSS样式一起使用:
-    <div v-cloak>
-        {{ message }}
+    <div v-cloak id="divcloakid">
+       v-cloak =  |{{ message }}|
     </div>
 
     <div v-once>第一次绑定的值：{{message}}</div>
@@ -40,7 +41,23 @@
             el: "#app",
             data: {
                 message: 'hello world'
-            }
+            },
+            beforeCreate: function () {
+                console.log('1-beforeCreate 初始化之后');
+                console.log($('#divcloakid')[0]);
+            },
+            created: function () {
+                console.log('2-created 创建完成');
+                console.log($('#divcloakid')[0]);
+            },
+            beforeMount: function () {
+                console.log('3-beforeMount 挂载之前');
+                console.log($('#divcloakid')[0]);
+            },
+            mounted: function () {
+                console.log('4-mounted 被挂载');
+                console.log($('#divcloakid')[0]);
+            },
         })
     }, 2000)
 </script>

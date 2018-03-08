@@ -12,19 +12,21 @@ const router = new Router({
   mode: 'hash',
   routes: [
     {
-      path: '/',
-      redirect: '/tabbar'
-    },
-    {
       path: '*',
       component: () => import('../components/Error')
     },
     {
+      path: '/',
+      redirect: '/tabbar'
+    },
+    {
       path: '/tabbar',
-      redirect: '/tabbar/home',
-      name: 'tabbar',
       component: () => import('../components/TabBar'),
       children: [
+        {
+          path: '/',
+          redirect: 'home'
+        },
         {
           path: 'home',
           name: 'home',
@@ -57,7 +59,7 @@ const router = new Router({
           children: [
             {
               path: '/',
-              redirect: '/tabBar/new/page02'
+              redirect: 'page02'
             },
             {
               path: 'page02',

@@ -25,7 +25,7 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang="less">
   .page02-wrapper {
-    background-color: yellow;
+    background-color: rosybrown;
     font-size: 1.5rem;
   }
 </style>

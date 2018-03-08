@@ -46,7 +46,8 @@
     </div>
     <hr>
     <div>
-      <p>{{phoneNum}}</p>
+      <p>...mapGetters(['phoneNum']): {{phoneNum}}</p>
+      <p>this.$store.getters.phoneNum: {{getPhoneNum}}</p>
     </div>
   </div>
 </template>
@@ -79,7 +80,10 @@ export default {
       return this.$store.state.count
     },
     ...mapState(['count']),
-    ...mapGetters(['phoneNum'])
+    ...mapGetters(['phoneNum']),
+    getPhoneNum () {
+      return this.$store.getters.phoneNum
+    }
   }
 }
 </script>

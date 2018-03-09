@@ -208,7 +208,7 @@ export default {
     }
   },
   created () {
-    axios.get('http://jspang.com/DemoApi/oftenGoods.php')
+    axios.get('https://raw.githubusercontent.com/NJHu/njhu.github.io/master/files/oftengoods.json')
       .then(response => {
         console.log(response)
         this.oftenGoods = response.data
@@ -218,10 +218,9 @@ export default {
         alert('网络错误，不能访问, 跨域访问, 浏览器需要设置')
       })
     // 读取分类商品列表
-    axios.get('http://jspang.com/DemoApi/typeGoods.php')
+    axios.get('https://raw.githubusercontent.com/NJHu/njhu.github.io/master/files/typegoods.json')
       .then(response => {
         console.log(response)
-        // this.oftenGoods=response.data;
         this.type0Goods = response.data[0]
         this.type1Goods = response.data[1]
         this.type2Goods = response.data[2]

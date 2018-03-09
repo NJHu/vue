@@ -77,8 +77,8 @@
       <file leaf-file-name="04Vue_life.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/第二季全局VueAPI/04Vue_life.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="76" column="30" lean-forward="false" selection-start-line="76" selection-start-column="30" selection-end-line="76" selection-end-column="30" />
+            <state relative-caret-position="303">
+              <caret line="79" column="32" lean-forward="true" selection-start-line="79" selection-start-column="32" selection-end-line="79" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -233,12 +233,12 @@
       <updated>1520414007791</updated>
       <workItem from="1520414009423" duration="6014000" />
       <workItem from="1520470075220" duration="211000" />
-      <workItem from="1520504028626" duration="2465000" />
+      <workItem from="1520504028626" duration="2549000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8690000" />
+    <option name="totallyTimeSpent" value="8774000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="834" extended-state="0" />
@@ -642,8 +642,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/第二季全局VueAPI/04Vue_life.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="76" column="30" lean-forward="false" selection-start-line="76" selection-start-column="30" selection-end-line="76" selection-end-column="30" />
+        <state relative-caret-position="303">
+          <caret line="79" column="32" lean-forward="true" selection-start-line="79" selection-start-column="32" selection-end-line="79" selection-end-column="32" />
           <folding />
         </state>
       </provider>

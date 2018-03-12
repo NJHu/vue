@@ -14,10 +14,10 @@
 <div id="app">
     {{message}}
     <student>
+        <span slot="userScore">{{student.score}}</span>
         <label slot="nickName">{{student.name}}
             <img src="https://raw.githubusercontent.com/NJHu/vue/master/githubimages/jicchumulu.jpg" width="100px"/>
         </label>
-        <span slot="userScore">{{student.score}}</span>
         <span slot="userAge">{{student.age}}</span>
     </student>
 
@@ -51,9 +51,9 @@
 
 <script type="text/javascript">
 
-    let cmp = {
-        template: '#tmp'
-    }
+//    let cmp = {
+//        template: '#tmp'
+//    }
     var app = new Vue({
         el: "#app",
         data() {
@@ -67,7 +67,9 @@
             }
         },
         components: {
-            "student": cmp
+            "student": {
+                template: '#tmp'
+            }
         }
     })
 </script>

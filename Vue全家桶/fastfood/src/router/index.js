@@ -60,6 +60,7 @@ const router = new Router({
             {
               path: '/',
               redirect: 'page02'
+              // component: () => import('../components/New')
             },
             {
               path: 'page02',

@@ -233,7 +233,7 @@ export default {
   },
   mounted: function () {
     var orderHeight = document.body.clientHeight
-    document.getElementById('order-list').style.height = orderHeight + 'px'
+    //    document.getElementById('order-list').style.height = orderHeight + 'px'
     console.log(orderHeight)
   },
   methods: {
@@ -337,9 +337,11 @@ export default {
         }
         .often-goods-list {
           background-color: yellow;
+          display: table;
           ul {
             li {
-              display: inline-block;
+              /*display: inline-block;*/
+              float: left;
               list-style: none;
               border: 1px solid #E5E9F2;
               padding: 10px;

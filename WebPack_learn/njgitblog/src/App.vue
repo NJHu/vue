@@ -13,5 +13,6 @@ export default {
 <style>
 #app-window {
   background-color: red;
+  min-width: 1012px;
 }
 </style>

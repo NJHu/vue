@@ -2,7 +2,7 @@
   <div class="left-nav-wrapper">
     <ul>
       <li>
-        <i class="icon iconfont icon-liebiao"></i>
+        <i class="iconfont icon-liebiao"></i>
         <div>收银</div>
       </li>
 

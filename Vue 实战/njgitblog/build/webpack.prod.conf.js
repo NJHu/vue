@@ -28,7 +28,7 @@ const OptimizeCSSPlugin = require('optimize-css-assets-webpack-plugin')
 // 个uglifyjs-webpack-plugin(JS压缩插件，简称uglify)。
 const UglifyJsPlugin = require('uglifyjs-webpack-plugin')
 
-const env = require('../config/prod.env')
+const prodEnv = require('../config/prod.env')
 
 const webpackConfig = merge(baseWebpackConfig, {
   module: {
@@ -56,7 +56,9 @@ const webpackConfig = merge(baseWebpackConfig, {
   plugins: [
     // http://vuejs.github.io/vue-loader/en/workflow/production.html
     new webpack.DefinePlugin({
-      'process.env': env
+      'process.env': prodEnv
+      // 'process.env': require('../config/prod.env')
+      // 'process.env': config.build.env
     }),
 
     // 压缩JS代码

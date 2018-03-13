@@ -12,6 +12,8 @@ const merge = require('webpack-merge')
 // node自带的文件路径工具
 const path = require('path')
 const baseWebpackConfig = require('./webpack.base.conf')
+
+// copy-webpack-plugin就是专门为我们作静态资源转移的插件
 const CopyWebpackPlugin = require('copy-webpack-plugin')
 
 // html-webpack-plugin用于将webpack编译打包后的文件注入到html模板中

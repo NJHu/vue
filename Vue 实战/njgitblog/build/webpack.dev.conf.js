@@ -2,7 +2,6 @@
 // 工具函数集合
 const utils = require('./utils')
 
-
 const webpack = require('webpack')
 const config = require('../config')
 
@@ -22,7 +21,6 @@ const HtmlWebpackPlugin = require('html-webpack-plugin')
 
 // friendly-errors-webpack-plugin用于更友好地输出webpack的警告、错误等信息
 const FriendlyErrorsPlugin = require('friendly-errors-webpack-plugin')
-
 
 const portfinder = require('portfinder')
 
@@ -76,7 +74,6 @@ const devWebpackConfig = merge(baseWebpackConfig, {
     new webpack.NamedModulesPlugin(), // HMR shows correct file names in console on update.
 
     // webpack编译过程中出错的时候跳过报错阶段，不会阻塞编译，在编译结束后报错
-
     new webpack.NoEmitOnErrorsPlugin(),
 
     // https://github.com/ampedandwired/html-webpack-plugin

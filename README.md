@@ -22,13 +22,13 @@
 	- [Vuex视频教程](http://jspang.com/2017/05/03/vuex/)
 
 - Vue 实战
-	- [Vue实战视频-快餐店收银系统 (共11集)](http://jspang.com/2017/05/22/vuedemo/)
+	- [Vue实战视频-快餐店收银系统](http://jspang.com/2017/05/22/vuedemo/)
 
 - Webpack
 	- [Webpack3.X版 成神之路](http://jspang.com/2017/09/16/webpack3-2/) 
 
 - Weex
-	- [WEEX免费视频教程-从入门到放肆 (共17集)] (http://jspang.com/2017/07/12/weex/)
+	- [WEEX免费视频教程-从入门到放肆](http://jspang.com/2017/07/12/weex/)
 
 - Nuxt.js
 	- [Nuxt.js免费视频教程 开启SSR渲染](http://jspang.com/2018/02/26/nuxt/) 

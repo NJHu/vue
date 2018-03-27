@@ -24,6 +24,12 @@
 - Vue 实战
 	- [Vue实战视频-快餐店收银系统 (共11集)](http://jspang.com/2017/05/22/vuedemo/)
 
+- Webpack
+	- [Webpack3.X版 成神之路](http://jspang.com/2017/09/16/webpack3-2/) 
+
+- Nuxt.js
+	- [Nuxt.js免费视频教程 开启SSR渲染](http://jspang.com/2018/02/26/nuxt/) 
+
 ## Vue 基础学习
 
 <div>
@@ -42,7 +48,7 @@
 <img src="./githubimages/Snip20180306_11.png" width="24%">
 </div>
 
-## Vue 实战
+## Vue 实战 + webpack注释
 
 <div>
 <img src="./githubimages/Snip20180313_1.png" width="25%">|
@@ -50,5 +56,9 @@
 <img src="./githubimages/Snip20180313_4.png" width="45%">
 </div>
 
+## Nuxt.js 
 
-
+<div>
+<img src="./githubimages/Snip20180327_2.png" width="25%">|
+<img src="./githubimages/Snip20180327_3.png" width="25%">
+</div>

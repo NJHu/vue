@@ -1,0 +1,13 @@
+language: node_js
+
+os:
+  - osx
+
+node_js:
+  - 6
+  - 7
+script: ./node_modules/mocha/bin/mocha tests/*.test.js
+before_install:
+  - brew install nvm;
+#  - brew install android-platform-tools;
+  - gem install -n /usr/local/bin cocoapods

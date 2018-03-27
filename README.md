@@ -27,6 +27,9 @@
 - Webpack
 	- [Webpack3.X版 成神之路](http://jspang.com/2017/09/16/webpack3-2/) 
 
+- Weex
+	- [WEEX免费视频教程-从入门到放肆 (共17集)] (http://jspang.com/2017/07/12/weex/)
+
 - Nuxt.js
 	- [Nuxt.js免费视频教程 开启SSR渲染](http://jspang.com/2018/02/26/nuxt/) 
 
@@ -54,6 +57,12 @@
 <img src="./githubimages/Snip20180313_1.png" width="25%">|
 <img src="./githubimages/Snip20180313_2.png" width="25%">|
 <img src="./githubimages/Snip20180313_4.png" width="45%">
+</div>
+
+## Weex
+
+<div>
+<img src="./githubimages/Snip20180327_4.png" width="50%">|
 </div>
 
 ## Nuxt.js 

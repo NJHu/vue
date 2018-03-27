@@ -1,0 +1,41 @@
+dependencies: \
+  /Users/huxupeng/MyProjects/fullstack/weex/fastcarweex/platforms/ios/Pods/WeexSDK/ios/sdk/WeexSDK/Sources/Component/Recycler/WXRecyclerComponent.m \
+  /Users/huxupeng/MyProjects/fullstack/weex/fastcarweex/platforms/ios/Pods/Target\ Support\ Files/WeexSDK/WeexSDK-prefix.pch \
+  /Users/huxupeng/MyProjects/fullstack/weex/fastcarweex/platforms/ios/Pods/WeexSDK/ios/sdk/WeexSDK/Sources/Component/Recycler/WXRecyclerComponent.h \
+  /Users/huxupeng/MyProjects/fullstack/weex/fastcarweex/platforms/ios/Pods/WeexSDK/ios/sdk/WeexSDK/Sources/Component/WXScrollerComponent.h \
+  /Users/huxupeng/MyProjects/fullstack/weex/fastcarweex/platforms/ios/Pods/WeexSDK/ios/sdk/WeexSDK/Sources/Protocol/WXScrollerProtocol.h \
+  /Users/huxupeng/MyProjects/fullstack/weex/fastcarweex/platforms/ios/Pods/WeexSDK/ios/sdk/WeexSDK/Sources/Utility/WXType.h \
+  /Users/huxupeng/MyProjects/fullstack/weex/fastcarweex/platforms/ios/Pods/WeexSDK/ios/sdk/WeexSDK/Sources/Model/WXComponent.h \
+  /Users/huxupeng/MyProjects/fullstack/weex/fastcarweex/platforms/ios/Pods/WeexSDK/ios/sdk/WeexSDK/Sources/Layout/WXLayoutDefine.h \
+  /Users/huxupeng/MyProjects/fullstack/weex/fastcarweex/platforms/ios/Pods/WeexSDK/ios/sdk/WeexSDK/Sources/Layout/Layout.h \
+  /Users/huxupeng/MyProjects/fullstack/weex/fastcarweex/platforms/ios/Pods/WeexSDK/ios/sdk/WeexSDK/Sources/Component/WXComponent_internal.h \
+  /Users/huxupeng/MyProjects/fullstack/weex/fastcarweex/platforms/ios/Pods/WeexSDK/ios/sdk/WeexSDK/Sources/Utility/WXConvert.h \
+  /Users/huxupeng/MyProjects/fullstack/weex/fastcarweex/platforms/ios/Pods/WeexSDK/ios/sdk/WeexSDK/Sources/Utility/WXLog.h \
+  /Users/huxupeng/MyProjects/fullstack/weex/fastcarweex/platforms/ios/Pods/WeexSDK/ios/sdk/WeexSDK/Sources/Component/WXTransform.h \
+  /Users/huxupeng/MyProjects/fullstack/weex/fastcarweex/platforms/ios/Pods/WeexSDK/ios/sdk/WeexSDK/Sources/Module/WXTransition.h \
+  /Users/huxupeng/MyProjects/fullstack/weex/fastcarweex/platforms/ios/Pods/WeexSDK/ios/sdk/WeexSDK/Sources/Model/WXSDKInstance_private.h \
+  /Users/huxupeng/MyProjects/fullstack/weex/fastcarweex/platforms/ios/Pods/WeexSDK/ios/sdk/WeexSDK/Sources/Model/WXSDKInstance.h \
+  /Users/huxupeng/MyProjects/fullstack/weex/fastcarweex/platforms/ios/Pods/WeexSDK/ios/sdk/WeexSDK/Sources/Model/WXJSExceptionInfo.h \
+  /Users/huxupeng/MyProjects/fullstack/weex/fastcarweex/platforms/ios/Pods/WeexSDK/ios/sdk/WeexSDK/Sources/Network/WXResourceResponse.h \
+  /Users/huxupeng/MyProjects/fullstack/weex/fastcarweex/platforms/ios/Pods/WeexSDK/ios/sdk/WeexSDK/Sources/Network/WXResourceRequest.h \
+  /Users/huxupeng/MyProjects/fullstack/weex/fastcarweex/platforms/ios/Pods/WeexSDK/ios/sdk/WeexSDK/Sources/Manager/WXComponentManager.h \
+  /Users/huxupeng/MyProjects/fullstack/weex/fastcarweex/platforms/ios/Pods/WeexSDK/ios/sdk/WeexSDK/Sources/Bridge/WXModuleMethod.h \
+  /Users/huxupeng/MyProjects/fullstack/weex/fastcarweex/platforms/ios/Pods/WeexSDK/ios/sdk/WeexSDK/Sources/Bridge/WXBridgeMethod.h \
+  /Users/huxupeng/MyProjects/fullstack/weex/fastcarweex/platforms/ios/Pods/WeexSDK/ios/sdk/WeexSDK/Sources/Utility/WXThreadSafeMutableDictionary.h \
+  /Users/huxupeng/MyProjects/fullstack/weex/fastcarweex/platforms/ios/Pods/WeexSDK/ios/sdk/WeexSDK/Sources/Component/Recycler/WXRecyclerDataController.h \
+  /Users/huxupeng/MyProjects/fullstack/weex/fastcarweex/platforms/ios/Pods/WeexSDK/ios/sdk/WeexSDK/Sources/Component/Recycler/WXSectionDataController.h \
+  /Users/huxupeng/MyProjects/fullstack/weex/fastcarweex/platforms/ios/Pods/WeexSDK/ios/sdk/WeexSDK/Sources/Utility/WXDiffUtil.h \
+  /Users/huxupeng/MyProjects/fullstack/weex/fastcarweex/platforms/ios/Pods/WeexSDK/ios/sdk/WeexSDK/Sources/Component/Recycler/WXRecyclerUpdateController.h \
+  /Users/huxupeng/MyProjects/fullstack/weex/fastcarweex/platforms/ios/Pods/WeexSDK/ios/sdk/WeexSDK/Sources/Component/Recycler/WXMultiColumnLayout.h \
+  /Users/huxupeng/MyProjects/fullstack/weex/fastcarweex/platforms/ios/Pods/WeexSDK/ios/sdk/WeexSDK/Sources/Utility/WXLength.h \
+  /Users/huxupeng/MyProjects/fullstack/weex/fastcarweex/platforms/ios/Pods/WeexSDK/ios/sdk/WeexSDK/Sources/Component/WXHeaderComponent.h \
+  /Users/huxupeng/MyProjects/fullstack/weex/fastcarweex/platforms/ios/Pods/WeexSDK/ios/sdk/WeexSDK/Sources/Component/WXFooterComponent.h \
+  /Users/huxupeng/MyProjects/fullstack/weex/fastcarweex/platforms/ios/Pods/WeexSDK/ios/sdk/WeexSDK/Sources/Component/WXCellComponent.h \
+  /Users/huxupeng/MyProjects/fullstack/weex/fastcarweex/platforms/ios/Pods/WeexSDK/ios/sdk/WeexSDK/Sources/Utility/WXAssert.h \
+  /Users/huxupeng/MyProjects/fullstack/weex/fastcarweex/platforms/ios/Pods/WeexSDK/ios/sdk/WeexSDK/Sources/Utility/WXDefine.h \
+  /Users/huxupeng/MyProjects/fullstack/weex/fastcarweex/platforms/ios/Pods/WeexSDK/ios/sdk/WeexSDK/Sources/Utility/WXUtility.h \
+  /Users/huxupeng/MyProjects/fullstack/weex/fastcarweex/platforms/ios/Pods/WeexSDK/ios/sdk/WeexSDK/Sources/Monitor/WXMonitor.h \
+  /Users/huxupeng/MyProjects/fullstack/weex/fastcarweex/platforms/ios/Pods/WeexSDK/ios/sdk/WeexSDK/Sources/Engine/WXSDKError.h \
+  /Users/huxupeng/MyProjects/fullstack/weex/fastcarweex/platforms/ios/Pods/WeexSDK/ios/sdk/WeexSDK/Sources/Utility/NSObject+WXSwizzle.h \
+  /Users/huxupeng/MyProjects/fullstack/weex/fastcarweex/platforms/ios/Pods/WeexSDK/ios/sdk/WeexSDK/Sources/Events/WXComponent+Events.h \
+  /Users/huxupeng/MyProjects/fullstack/weex/fastcarweex/platforms/ios/Pods/WeexSDK/ios/sdk/WeexSDK/Sources/Component/Recycler/WXRecyclerDragController.h

@@ -1,0 +1,35 @@
+{
+  "name": "eyes",
+  "description": "a customizable value inspector",
+  "url": "http://github.com/cloudhead/eyes.js",
+  "keywords": [
+    "inspector",
+    "debug",
+    "inspect",
+    "print"
+  ],
+  "author": "Alexis Sellier <self@cloudhead.net>",
+  "contributors": [
+    {
+      "name": "Charlie Robbins",
+      "email": "charlie@nodejitsu.com"
+    }
+  ],
+  "licenses": [
+    "MIT"
+  ],
+  "main": "./lib/eyes",
+  "version": "0.1.8",
+  "scripts": {
+    "test": "node test/*-test.js"
+  },
+  "directories": {
+    "lib": "./lib",
+    "test": "./test"
+  },
+  "engines": {
+    "node": "> 0.1.90"
+  },
+  "_from": "eyes@0.1.8",
+  "_resolved": "http://registry.npm.taobao.org/eyes/download/eyes-0.1.8.tgz"
+}

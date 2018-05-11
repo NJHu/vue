@@ -11,7 +11,7 @@
       <router-link :to="{path: '/vuexlearn', query: {}}">Vuex_store</router-link>
     </div>
     <hr>
-    <router-view></router-view>
+    <!--<router-view></router-view>-->
   </div>
 </template>
 

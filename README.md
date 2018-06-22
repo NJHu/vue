@@ -1,6 +1,3 @@
-[**感谢技术胖: 大家可以前往 看详细Vue文档和视频**](http://jspang.com/2018/01/21/vue-timeline/)
-
-
 ## Vue 基础学习
 
 <div>
